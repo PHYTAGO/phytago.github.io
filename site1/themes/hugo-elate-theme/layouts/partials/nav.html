@@ -14,17 +14,19 @@
                         <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
 
-                    <li class="dropdown open">
-                        <a href="#" data-nav-section="home" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-                            <span class="ion-ios-arrow-down">{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span>HOME</a>
-                        <ul class="dropdown" style="display:none;"><a href="#">ABC</a></ul>
-                        <ul class="dropdown" style="display:none;"><a href="#">ABC</a></ul>
-                        <ul class="dropdown" style="display:none;"><a href="#">ABC</a></ul>
-                        <ul class="dropdown" style="display:none;"><a href="#">ABC</a></ul>
+
+                    <li class="nav-drop-li"><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.product }}{{ . | markdownify }}{{ end }}</span></a>
+                        <ul class="nav-drop-ul">
+                          <li><a href="/jungpflanzen.md">Jungpflanzen</a></li>
+                          <li><a href="/gourmetpilze.md">Gourmetpilze</a></li>
+                          <li><a href="/rts.md">RTS</a></li>
+                          <li><a href="/individueller-anbau.md">Individueller Anbau</a></li>
+                        </ul>
                     </li>
 
+
                     {{ if .Site.Params.work.enable }}
-                    <li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li class="nav-drop-li"><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.testimonials.enable }}

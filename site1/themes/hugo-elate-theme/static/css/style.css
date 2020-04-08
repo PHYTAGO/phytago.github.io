@@ -347,7 +347,29 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 0px;
   border-radius: 0px;
 }
+
+.nav-drop-li {
+  text-align:right;
+}
+
+.nav-drop-li .nav-drop-ul {
+  display: none;
+}
+
+.nav-drop-li:hover .nav-drop-ul{
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
+
+  .nav-drop-li {
+    text-align: left;
+  }
+  
+  .nav-drop-li .nav-drop-ul {
+    display: block;
+  }
+
   #fh5co-header .navbar-default {
     margin-top: 0px;
     padding-right: 0px;

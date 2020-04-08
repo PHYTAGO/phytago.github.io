@@ -19,30 +19,31 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "**P H Y T A G O**"
-    #home = "XXXX"
-    work = "**Produkte**"
-    #testimonials = "Mein PHYTAGO"
-    #services = "Philosophie"
-    about = "**Philosophie**"
-    #contact = "Mein PHYTAGO"
+    home = "Startseite"
+    work = "Jungpflanzen"
+    product = "**Produkte**"
+    testimonials = "Gourmetpilze"
+    services = "Produktion"
+    about = "Wir"
+    contact = "Kontakt"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
 
     # prepended links
-  #  [[menu.postpend]]
-#      url = "#fh5co-work"
+  # [[menu.postpend]]
+    #  url = "#fh5co-work"
       #name = "Produkte"
       #weight = 9
 
     # postpended links
-    #[[menu.postpend]]
-  #    url = "#fh5co-about"
-#      name = "Philosophie"
-#      weight = 11
-
     [[menu.postpend]]
       url = "#fh5co-counters"
+      name = "Philosophie"
+      weight = 11
+
+    [[menu.postpend]]
+      url = "#"
       name = "Mein PHYTAGO"
       weight = 12
 
@@ -55,7 +56,7 @@ theme = "hugo-elate-theme"
     subtitle4 = "ganzjährig konstante Liefe­rung"
 
   # Intro section
-  # Available icons: http://simplelineicons.com/
+  # Available icons: https://simplelineicons.com/
   [params.intro]
   [[params.intro.item]]
     title = "Microgreens"
@@ -95,8 +96,8 @@ theme = "hugo-elate-theme"
     icon = "icon-play2"
     url = "http://localhost:1313"
 
-  # Work section
-  [params.work]
+# Work section
+   [params.work]
     enable = false
     title = "Produktpalette - Microgreens"
     description = "**frisch und knackig** oder **vakuumgetrocknet und knusprig**"
@@ -144,18 +145,17 @@ theme = "hugo-elate-theme"
       title = "Sesam"
       subtitle = "Kurzbeschreibung"
 
-      [[params.work.row]]
+    [[params.work.row]]
       img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/images/BROKKOLI.jpg"
       alt = "Image8"
       title = "Brokkoli"
       subtitle = "Kurzbeschreibung"
 
-      [[params.work.row]]
+    [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image9"
       title = "Project 9"
       subtitle = "Kurzbeschreibung"
-
 
   # ----------------------------PRODUKTPALETTE GOURMETPILZE
   [params.testimonials]
@@ -210,28 +210,29 @@ theme = "hugo-elate-theme"
 
   # About section
   [params.about]
-    enable = true
-    title = "Philosophie"
-    description = " Unser Alphabet besteht aus: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z. Verstehe die Natur und du Verstehst die Zauberei."
+    enable = false
+    title = "VIDEO"
+    description = "PLATZHALTER"
 
-    [[params.about.item]]
-      name = "Optimierung"
-      position = "100 % Geschmack"
-      description = "97% kürzere Transportwege   95% weniger Wasserverbrauch   90% weniger Dünger"
-      img = "person2.jpg"
-      alt = "philosophy1"
+
+    #[[params.about.item]]
+    #  name = "Optimierung"
+    #  position = "100 % Geschmack"
+    #  description = "97% kürzere Transportwege   95% weniger Wasserverbrauch   90% weniger Dünger"
+    #  img = "person2.jpg"
+    #  alt = "philosophy1"
      # social = [
      #   ["icon-twitter", "#"],
      #   ["icon-facebook", "#"],
      #   ["icon-github", "#"]
      # ]
 
-    [[params.about.item]]
-      name = "Nachhaltigkeit"
-      position = "  0% Pestizide"
-      description = "0% Abfall           0% chemischer Dünger                 0% Ausfall"
-      img = "person3.jpg"
-      alt = "philosophy1"
+    #[[params.about.item]]
+    #  name = "Nachhaltigkeit"
+    #  position = "  0% Pestizide"
+    #  description = "0% Abfall           0% chemischer Dünger                 0% Ausfall"
+    #  img = "person3.jpg"
+    #  alt = "philosophy1"
     #  social = [
     #    ["icon-twitter", "#"],
     #    ["icon-facebook", "#"],
@@ -241,24 +242,72 @@ theme = "hugo-elate-theme"
   # Counters section
   [params.counters]
     enable = true
-    title = "Mein PHYTAGO"
+    title = "Philosophie"
     background = "full_image_1.jpg"
 
-  #  [[params.counters.item]]
-  #    description = "Finished projects"
-  #    icon = "icon-briefcase"
-  #    from = 0
-  #    to = 89
-  #    interval = 50
-  #    speed = 5000
+    [[params.counters.item]]
+      description = "Geschmack"
+      icon = "icon-heart"
+      from = 0
+      to = 100
+      interval = 1
+      speed = 200
 
-  #  [[params.counters.item]]
-  #    description = "Lines of code"
-  #    icon = "icon-code"
-  #    from = 0
-  #    to = 2343409
-  #    interval = 50
-  #    speed = 5000
+   [[params.counters.item]]
+      description = "Kürzere Transportwege"
+      icon = "icon-plane"
+      from = 0
+      to = 97
+      interval = 1
+      speed = 200
+
+    [[params.counters.item]]
+       description = "Weniger Wasserverbrauch"
+       icon = "icon-drop"
+       from = 0
+       to = 90
+       interval = 1
+       speed = 200
+
+     [[params.counters.item]]
+        description = "Weniger Dünger"
+        icon = "icon-globe"
+        from = 0
+        to = 90
+        interval = 1
+        speed = 200
+
+      [[params.counters.item]]
+        description = "Pestizide"
+        icon = "icon-target"
+        from = 100
+        to = 0
+        interval = 1
+        speed = 200
+
+     [[params.counters.item]]
+        description = "Abfall"
+        icon = "icon-trash"
+        from = 100
+        to = 0
+        interval = 1
+        speed = 200
+
+      [[params.counters.item]]
+         description = "Chemischer Dünger"
+         icon = "icon-chemistry"
+         from = 100
+         to = 0
+         interval = 1
+         speed = 200
+
+       [[params.counters.item]]
+          description = "Ausfall"
+          icon = "icon-speedometer"
+          from = 100
+          to = 0
+          interval = 1
+          speed = 200
 
   #  [[params.counters.item]]
   #    description = "Cups of coffee"
