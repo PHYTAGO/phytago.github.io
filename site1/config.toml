@@ -59,11 +59,11 @@ theme = "hugo-elate-theme"
   # Available icons: https://simplelineicons.com/
   [params.intro]
   [[params.intro.item]]
-    title = "Microgreens"
-    description = "Unsere Microgreens tragen in die geballte Energie in sich, die die Pflanze benötigt, um groß zu werden. Der Anteil an Vitaminen, Spurenelementen (besonders Vitamin A, B6, C und Eisen) sowie Proteinen ist daher in den kleinen Pflänzchen um ein Vielfaches höher als in der gleichen Menge des ausgewachsenen Gemüses. "
-    url = "/microgreens.md"
+    title = "Jungpflanzen"
+    description = "Unsere Jungpflanen tragen in die geballte Energie in sich, die die Pflanze benötigt, um groß zu werden. Der Anteil an Vitaminen, Spurenelementen (besonders Vitamin A, B6, C und Eisen) sowie Proteinen ist daher in den kleinen Pflänzchen um ein Vielfaches höher als in der gleichen Menge des ausgewachsenen Gemüses. "
+    url = "/Jungpflanzen.md"
     button = "Zur Produktpalette"
-    icon = "icon-bulb"
+    icon = "icon-heart"
     img = "Microgreens.jpg"
 
   [[params.intro.item]]
@@ -71,24 +71,24 @@ theme = "hugo-elate-theme"
     description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
     url = "/pilze.md"
     button = "Zur Produktpalette"
-    icon = "icon-wrench"
+    icon = "icon-diamond"
     img = "Pilze.jpg"
 
-  [[params.intro.item]]
-    title = "RTS"
-    description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
-    url = "/rts.md"
-    button = "Zur Produktpalette"
-    icon = "icon-wallet"
-    img = "Gewuerze.jpg"
+  #[[params.intro.item]]
+  #  title = "RTS"
+  #  description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
+  #  url = "/rts.md"
+  #  button = "Zur Produktpalette"
+  #  icon = "icon-diamond"
+  #  img = "Gewuerze.jpg"
 
-    [[params.intro.item]]
-      title = "Individueller Anbau"
-      description = "Gewürze sind kulinarisch von sehr hoher Bedeutung. Mit Gewürzen verfeinern wir nicht nur unsere Mahlzeiten, sondern können Entzündungen hemmen, Krankheiten bekämpfen und die Verdauung fördern. Das geht komplett, anders als bei Medikamenten, ohne Nebenwirkungen. Auch wirken sie antiviral, antibakteriell und pilzbekämpfend."
-      url = "/ind-anb.md"
-      button = "Zur Produktpalette"
-      icon = "icon-rocket"
-      img = "Gewuerze.jpg"
+  #  [[params.intro.item]]
+  #    title = "Individueller Anbau"
+  #    description = "Gewürze sind kulinarisch von sehr hoher Bedeutung. Mit Gewürzen verfeinern wir nicht nur unsere Mahlzeiten, sondern können Entzündungen hemmen, Krankheiten bekämpfen und die Verdauung fördern. Das geht komplett, anders als bei Medikamenten, ohne Nebenwirkungen. Auch wirken sie antiviral, antibakteriell und pilzbekämpfend."
+  #    url = "/ind-anb.md"
+  #    button = "Zur Produktpalette"
+  #    icon = "icon-home"
+  #    img = "Gewuerze.jpg"
 
   [params.intro.video]
     enable = false
@@ -189,14 +189,14 @@ theme = "hugo-elate-theme"
     description = "Der Workflow des Herstellungsprozesses ist nicht nur für den Menschen optimiert, sondern auch nachhaltig und umweltbewusst konzipiert."
 
     [[params.services.item]]
-      title = "RST - Ressource-Saving-Tool (Umweltfreundlichkeit im Titel)"
+      title = "RST - Ressource-Saving-Tool "
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
-      icon = "icon-wrench"
+      icon = "icon-puzzle"
 
-      [[params.services.item]]
+    [[params.services.item]]
       title = "Individualisierter Anbau und bedarfsorientierte Versorgung"
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
-      icon = "icon-bulb"
+      icon = "icon-cloud-download"
 
     # [[params.services.item]]
     #  title = "Web &amp; Interface"
@@ -247,7 +247,7 @@ theme = "hugo-elate-theme"
 
     [[params.counters.item]]
       description = "Geschmack"
-      icon = "icon-heart"
+      icon = "icon-star"
       from = 0
       to = 100
       interval = 1

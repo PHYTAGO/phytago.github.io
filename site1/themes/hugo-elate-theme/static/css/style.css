@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   .nav-drop-li {
     text-align: left;
   }
-  
+
   .nav-drop-li .nav-drop-ul {
     display: block;
   }
@@ -560,7 +560,17 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro .fh5co-block h2 {
   font-size: 24px;
   font-weight: 400;
+  color: white;
 }
+
+#fh5co-intro .fh5co-block p {
+  opacity: 0;
+}
+
+#fh5co-intro .fh5co-block:hover p {
+  opacity: 1;
+}
+
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
   opacity: 0;
   z-index: 9;
@@ -1275,10 +1285,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: transparent;
   color: #fff;
   border: none !important;
-  border: 2px solid transparent !important;
+  border: 2px solid white !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
