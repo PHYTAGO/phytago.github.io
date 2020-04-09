@@ -21,6 +21,7 @@ theme = "hugo-elate-theme"
     brand = "**P H Y T A G O**"
     home = "Startseite"
     work = "Jungpflanzen"
+    workb = "Gourmetpilze"
     product = "**Produkte**"
     testimonials = "Gourmetpilze"
     services = "Produktion"
@@ -49,11 +50,12 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "Individualisierter Anbau"
+  #  title = "Individualisierter Anbau"
     subtitle1 = "maximale Fri­sche"
     subtitle2 = "höchste Qualität"
     subtitle3 = "Ressourcenschonung"
     subtitle4 = "ganzjährig konstante Liefe­rung"
+    subtitle5 = "Individualisierter Anbau"
 
   # Intro section
   # Available icons: https://simplelineicons.com/
@@ -61,25 +63,25 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Jungpflanzen"
     description = "Unsere Jungpflanen tragen in die geballte Energie in sich, die die Pflanze benötigt, um groß zu werden. Der Anteil an Vitaminen, Spurenelementen (besonders Vitamin A, B6, C und Eisen) sowie Proteinen ist daher in den kleinen Pflänzchen um ein Vielfaches höher als in der gleichen Menge des ausgewachsenen Gemüses. "
-    url = "/Jungpflanzen.md"
+    url = "#fh5co-work"
     button = "Zur Produktpalette"
     icon = "icon-heart"
     img = "Microgreens.jpg"
 
   [[params.intro.item]]
     title = "Gourmetpilze"
-    description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
-    url = "/pilze.md"
+    description = "{{Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente.}}"
+    url = "#fh5co-workb"
     button = "Zur Produktpalette"
     icon = "icon-diamond"
     img = "Pilze.jpg"
 
-  #[[params.intro.item]]
-  #  title = "RTS"
-  #  description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
-  #  url = "/rts.md"
-  #  button = "Zur Produktpalette"
-  #  icon = "icon-diamond"
+  #  [[params.intro.item]]
+ #    title = "RTS"
+  #    description =
+  #    url = "/rts.md"
+  #    button = "Zur Produktpalette"
+  #    icon = "icon-diamond"
   #  img = "Gewuerze.jpg"
 
   #  [[params.intro.item]]
@@ -98,55 +100,55 @@ theme = "hugo-elate-theme"
 
 # Work section
    [params.work]
-    enable = false
-    title = "Produktpalette - Microgreens"
+    enable = true
+    title = "Unsere Jungpflanzen"
     description = "**frisch und knackig** oder **vakuumgetrocknet und knusprig**"
     footertext = 'Produkte werden nach Betriebsphilosophie aus ökologischer Kreislaufproduktion gewonnen und unterliegen hohen Qualitätsstandarts.'
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/image/BASILIKUM.jpg"
+      img = "BASILIKUM.jpg"
       alt = "Image2"
       title = "Basilikum"
       subtitle = "Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/image/ALFALFA.jpg"
+      img = "ALFALFA.jpg"
       alt = "Image2"
       title = "Alfalfa"
       subtitle = "Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/images/AMARANTH.jpg"
+      img = "AMARANTH.jpg"
       alt = "Image3"
       title = "Amerant"
       subtitle = " Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/images/GELBSENF.jpg"
+      img = "GELBSENF.jpg"
       alt = "Image4"
       title = "Gelbsenf"
       subtitle = "Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/images/CHIA.jpg"
+      img = "CHIA.jpg"
       alt = "Image5"
       title = "Chia"
       subtitle = "Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/images/RUCOLA.jpg"
+      img = "RUCOLA.jpg"
       alt = "Image6"
       title = "Rucola"
       subtitle = "Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/images/SESAM.jpg"
+      img = "SESAM.jpg"
       alt = "Image7"
       title = "Sesam"
       subtitle = "Kurzbeschreibung"
 
     [[params.work.row]]
-      img = "/home/katzenmann/hugo/elate/themes/hugo-elate-theme/static/images/BROKKOLI.jpg"
+      img = "BROKKOLI.jpg"
       alt = "Image8"
       title = "Brokkoli"
       subtitle = "Kurzbeschreibung"
@@ -158,6 +160,33 @@ theme = "hugo-elate-theme"
       subtitle = "Kurzbeschreibung"
 
   # ----------------------------PRODUKTPALETTE GOURMETPILZE
+  [params.workb]
+   enable = true
+   title = "Unsere Gourmetpilze"
+   description = "**frisch und knackig** oder **vakuumgetrocknet und knusprig**"
+   footertext = 'Produkte werden nach Betriebsphilosophie aus ökologischer Kreislaufproduktion gewonnen und unterliegen hohen Qualitätsstandarts.'
+
+   [[params.workb.row]]
+     img = "rosenseitling.png"
+     alt = "Image2"
+     title = "Rosensaitling"
+     subtitle = "Unser Rosenseitling besticht durch eine saftige rosa Farbe und sein fleischig nussiges Aroma."
+
+   [[params.workb.row]]
+     img = "SHITAKE.jpg"
+     alt = "Image2"
+     title = "Shi Take"
+     subtitle = "Unsere Shiitake fördern die Konzentration und sind reich an Vitamin B und D."
+
+   [[params.workb.row]]
+     img = "ENOKI.jpg"
+     alt = "Image3"
+     title = "Enoki"
+     subtitle =  "Der sehr exotische Enoki überzeugt mit einer herrlichen Geschmacksnote."
+
+
+
+
   [params.testimonials]
     enable = false
     title = "Produktpalette - Gourmetpilze"
@@ -166,19 +195,19 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       quote = "Unser Rosenseitling besticht durch eine saftige rosa Farbe und sein fleischig nussiges Aroma."
       person = 'Rosenseitling'
-      img = "person1.jpg"
+      img = "rosenseitling.png"
       alt = "Rosenseitling"
 
     [[params.testimonials.item]]
       quote = "Unsere Shiitake fördern die Konzentration und sind reich an Vitamin B und D."
       person = 'Shiitake'
-      img = "person2.jpg"
+      img = "SHITAKE.jpg"
       alt = "Shiitake"
 
     [[params.testimonials.item]]
       quote = "Der sehr exotische Enoki überzeugt mit einer herrlichen Geschmacksnote."
       person = 'Enoki'
-      img = "person3.jpg"
+      img = "ENOKI.jpg"
       alt = "Enoki"
 
 

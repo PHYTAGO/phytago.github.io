@@ -15,18 +15,20 @@
                     {{ end }}
 
 
-                    <li class="nav-drop-li"><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.product }}{{ . | markdownify }}{{ end }}</span></a>
+                    <!-- <li class="nav-drop-li"><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.product }}{{ . | markdownify }}{{ end }}</span></a>
                         <ul class="nav-drop-ul">
-                          <li><a href="/jungpflanzen.md">Jungpflanzen</a></li>
-                          <li><a href="/gourmetpilze.md">Gourmetpilze</a></li>
-                          <li><a href="/rts.md">RTS</a></li>
-                          <li><a href="/individueller-anbau.md">Individueller Anbau</a></li>
+                          <li><a href="#fh5co-work">Jungpflanzen</a></li>
+                          <li><a href="#fh5co-workb">Gourmetpilze</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
 
                     {{ if .Site.Params.work.enable }}
                     <li class="nav-drop-li"><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    {{ end }}
+
+                    {{ if .Site.Params.workb.enable }}
+                    <li class="nav-drop-li"><a href="#" data-nav-section="workb"><span>{{ with .Site.Params.navigation.workb }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.testimonials.enable }}

@@ -12,11 +12,15 @@
 
 		{{ partial "hero.html" .}}
 
-        {{ partial "intro.html" .}}
+    {{ partial "intro.html" .}}
 
 		{{ if .Site.Params.work.enable }}
        		{{ partial "work.html" .}}
-       	{{ end }}
+   	{{ end }}
+
+    {{ if .Site.Params.workb.enable }}
+          {{ partial "workb.html" .}}
+    {{ end }}
 
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
