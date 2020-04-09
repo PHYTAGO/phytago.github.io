@@ -513,11 +513,12 @@ h1, h2, h3, h4, h5, h6 {
   -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  z-index: 7;
+  z-index: 9;
   flex-grow: 1;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+  border-radius: 20px 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
@@ -525,10 +526,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-intro .fh5co-block > .overlay-darker {
-  z-index: 8;
-  opacity: .5;
-  background: #474747;
-  position: absolute;
+  /* color: #fff; */
   left: 0;
   right: 0;
   top: 0;
@@ -536,13 +534,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-intro .fh5co-block > .overlay {
   background: #fff;
-  opacity: 1;
-  z-index: 9;
+  opacity: 0.1;
+  z-index: 0;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  box-shadow: 10px;
+  border-radius: 20px 20px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.75s;
@@ -555,33 +555,44 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
   color: #52d3aa;
   margin-bottom: 30px;
-  display: block;
+  display: none;
 }
+
 #fh5co-intro .fh5co-block h2 {
-  font-size: 24px;
+  font-size: 45px;
+  font-style: bold;
   font-weight: 400;
-  color: white;
+  color: #fff;
 }
 
-#fh5co-intro .fh5co-block p {
+#fh5co-intro .fh5co-block h4 {
   opacity: 0;
+  font-size: 25px;
 }
 
-#fh5co-intro .fh5co-block:hover p {
+#fh5co-intro .fh5co-block:hover h4 {
   opacity: 1;
+  color: #fff;
+  font-size: 25px;
 }
 
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
-  opacity: 0;
+  opacity: 0.15;
   z-index: 9;
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text, #fh5co-intro .fh5co-block:focus > .fh5co-text {
   color: #fff;
 }
+#fh5co-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon {
+  font-size: 50px;
+  margin-bottom: 30px;
+  display:block;
+}
 #fh5co-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon, #fh5co-intro .fh5co-block:focus > .fh5co-text .fh5co-intro-icon {
   color: #fff;
 }
 #fh5co-intro .fh5co-block:hover h2, #fh5co-intro .fh5co-block:focus h2 {
+  display: none;
   color: #fff;
 }
 #fh5co-intro .fh5co-block:hover .btn, #fh5co-intro .fh5co-block:focus .btn {
@@ -589,8 +600,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #52d3aa !important;
-  border: 2px solid #52d3aa !important;
+  background: transparent !important;
+  border: 2px solid black !important;
 }
 
 .watch-video {
@@ -909,8 +920,17 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
 }
-#fh5co-work a:hover {
-  color: white;
+#fh5co-work p {
+color: white;
+opacity: 1;
+font-size: 20px;
+}
+
+ #fh5co-work a:hover {
+  color: lightgreen;
+  opacity: 0.7;
+  box-shadow: 20px 20px 20px 20px;
+  border-radius: 15px 15px 15px 15px;
 }
 #fh5co-work:before, #fh5co-work:after {
   position: absolute;
@@ -962,6 +982,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-work .fh5co-project-item img {
+  width: 33%;
+  max-height: 33%;
+  background-size:contain;
   z-index: 8;
   opacity: 1;
   -webkit-transition: 0.3s;
@@ -969,12 +992,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-work .fh5co-project-item .fh5co-text {
-  padding: 10px 20px;
+  max-height: 200px;
+  overflow: scroll;
+  font-size: 15px;
+  color:black;
 }
+
 #fh5co-work .fh5co-project-item .fh5co-text h2, #fh5co-work .fh5co-project-item .fh5co-text span {
   text-decoration: none !important;
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2 {
+  float: right;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -994,7 +1022,7 @@ h1, h2, h3, h4, h5, h6 {
   top: -15px;
 }
 #fh5co-work .fh5co-project-item:hover img, #fh5co-work .fh5co-project-item:focus img {
-  opacity: .7;
+  opacity: 0.9;
 }
 #fh5co-work .fh5co-project-item:hover h2, #fh5co-work .fh5co-project-item:hover span, #fh5co-work .fh5co-project-item:focus h2, #fh5co-work .fh5co-project-item:focus span {
   text-decoration: none !important;

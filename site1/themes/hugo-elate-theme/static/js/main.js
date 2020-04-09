@@ -160,7 +160,7 @@
 
 					var els = $('#fh5co-home .to-animate');
 					setInterval(function() {
-							els.each(function( k ) {
+			 				els.each(function( k ) {
 							var el = $(this);
 
 							setTimeout ( function () {
@@ -175,11 +175,11 @@
 							var el = $(this);
 
 							setTimeout ( function () {
-								// el.removeClass('fadeInLeft');
+								el.removeClass('fadeInLeft');
 								el.addClass('fadeOutRight animated');
 							},  ( k + els.lenght ) * 2500, 'easeInOutExpo' );
 
-						});
+						   });
 
 					},( 2 *	els.lenght + 1) * 2500);
 
