@@ -11,7 +11,7 @@
 				</div>
 			</div>
 			<div class="row">
-			
+
 			{{ range .Site.Params.about.item }}
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
@@ -28,5 +28,14 @@
 				</div>
 			{{ end }}
 			</div>
+
+			{{ if .Site.Params.about.video.enable }}
+				<div class="row watch-video text-center to-animate">
+				<!-- <span>{{ with .Site.Params.about.video }}{{ . }}{{ end }}</span> -->
+				<span>{{.Site.Params.about.video.title | markdownify }}</span>
+				<a href="{{ .Site.Params.about.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.about.video.icon | markdownify }}"></i></a>
+			</div>
+			{{ end }}
+
 		</div>
 	</section>

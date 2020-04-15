@@ -92,30 +92,30 @@ theme = "hugo-elate-theme"
   #    icon = "icon-home"
   #    img = "Gewuerze.jpg"
 
-  [params.intro.video]
-    enable = false
-    title = "Sieh dir das Video an!"
-    icon = "icon-play2"
-    url = "http://localhost:1313"
+  # [params.intro.video]
+  #   enable = true
+  #   title = "Sieh dir das Video an!"
+  #   icon = "icon-play2"
+  #   url = "http://localhost:1313"
 
 # Work section
    [params.work]
     enable = true
     title = "Unsere Jungpflanzen"
     description = "**frisch und knackig** oder **vakuumgetrocknet und knusprig**"
-    footertext = "Microgreens sind junge, essbare Keimpflanzen, die zur Zeit vor allem in der gehobenen Gastronomie sowohl zur optischen als auch zur geschmacklichen Bereicherung von Gerichten eingesetzt werden. Köche benutzen microgreens, um die Attraktivität und den Geschmack ihrer Menüs zu erhöhen. Kleiner als Jungpflanzen, aber später geernet als Sprossen, weisen die verschiedenen microgreens eine Vielzahl an Geschmacksrichtungen auf, wie beispielsweise scharf oder süß. Desweiteren werden sie aufgrund ihrer vielfältigen Farbtöne und Texturen geschätzt. Microgreens lassen sich hervorragend für das Garnieren von Salaten, Suppen, Sandwiches, Smoothies und anderen Gerichten verwenden. Das 'junge Grün' kann aus den Samen verschiedenster Arten von Gemüse, Kräutern und anderen Pflanzen gezogen werden. Die Ernte-Größe beläuft sich auf ca. 2,5 bis 7,5 cm mit Stängel und Blättern. Ein microgreen hat einen einzigen Stängel, der bei der Ernte knapp über der Erde abgeschnitten wird. Dabei kann es neben den voll entwickelten Keimblättern in der Regel auch schon die ersten richtigen Blätter aufweisen er Vorteil der microgreens gegenüber Sprossen liegt - ausser der Fähigkeit die wertvollen Nährstoffe des Bodens aufzunehmen - darin, dass sie durch das Sonnenlicht Chlorophyll bilden. Dabei werden die Inhaltsstoffe des Samens aufgewertet und hochwertiges Eiweiß gebildet.  Mit der Grünung wird die Kraft, Energie und die sonnenlichtwertigen Potentiale erhöht. Das kann bei Pflanzen mit nachgesagter Heilwirkung die Heilkraft erhöhen. Bei Pflanzen wie Rettich, Senf etc. werden während des Wachstums die ätherischen Öle und Bitterstoffe gebildet und erhöhen damit ihre pharmakologische Wirkung."
+    footertext = "Jungpflanzen sind, essbare Keimpflanzen, die zur Zeit vor allem in der gehobenen Gastronomie sowohl zur optischen als auch zur geschmacklichen Bereicherung von Gerichten eingesetzt werden. Köche benutzen Jungpflanzen, um die Attraktivität und den Geschmack ihrer Menüs zu erhöhen. Kleiner als Jungpflanzen, aber später geernet als Sprossen, weisen die verschiedenen Jungpflanzen eine Vielzahl an Geschmacksrichtungen auf, wie beispielsweise scharf oder süß. Desweiteren werden sie aufgrund ihrer vielfältigen Farbtöne und Texturen geschätzt. Jungpflanzen lassen sich hervorragend für das Garnieren von Salaten, Suppen, Sandwiches, Smoothies und anderen Gerichten verwenden. Das 'junge Grün' kann aus den Samen verschiedenster Arten von Gemüse, Kräutern und anderen Pflanzen gezogen werden. Die Ernte-Größe beläuft sich auf ca. 2,5 bis 7,5 cm mit Stängel und Blättern. Ein Jungpflanzen hat einen einzigen Stängel, der bei der Ernte knapp über der Erde abgeschnitten wird. Dabei kann es neben den voll entwickelten Keimblättern in der Regel auch schon die ersten richtigen Blätter aufweisen er Vorteil der Jungpflanzen gegenüber Sprossen liegt - ausser der Fähigkeit die wertvollen Nährstoffe des Bodens aufzunehmen - darin, dass sie durch das Sonnenlicht Chlorophyll bilden. Dabei werden die Inhaltsstoffe des Samens aufgewertet und hochwertiges Eiweiß gebildet.  Mit der Grünung wird die Kraft, Energie und die sonnenlichtwertigen Potentiale erhöht. Das kann bei Pflanzen mit nachgesagter Heilwirkung die Heilkraft erhöhen. Bei Pflanzen wie Rettich, Senf etc. werden während des Wachstums die ätherischen Öle und Bitterstoffe gebildet und erhöhen damit ihre pharmakologische Wirkung."
 
     [[params.work.row]]
       img = "BASILIKUM.jpg"
       alt = "Basilikum"
       title = "Basilikum"
-      subtitle = "Basilikum-Microgreen schmeckt noch kräftiger als Basilikumblätter. Das Mini-Blattgemüse hat einen intensiv aromatischen, pfeffrigen Geschmack und kann überall dort eingesetzt werden, wo man Basilikumblätter verwendet (mediterrane Küche, Salate, Suppen, zur Dekoration). Schmeckt besonders in Verbindung mit Tomaten.  Basilikum hat einen hohen Energiegehalt, enthält viele ätherische Öle, ist reich an Enzymen sowie Vitaminen und enthält viele Mineralstoffe. Basilikum hat einen hohen Energiegehalt, enthält viele ätherische Öle, ist reich an Enzymen sowie Vitaminen und enthält viele Mineralstoffe."
+      subtitle = "Basilikum-Die Jungpflanze schmeckt noch kräftiger als Basilikumblätter. Das Mini-Blattgemüse hat einen intensiv aromatischen, pfeffrigen Geschmack und kann überall dort eingesetzt werden, wo man Basilikumblätter verwendet (mediterrane Küche, Salate, Suppen, zur Dekoration). Schmeckt besonders in Verbindung mit Tomaten.  Basilikum hat einen hohen Energiegehalt, enthält viele ätherische Öle, ist reich an Enzymen sowie Vitaminen und enthält viele Mineralstoffe. Basilikum hat einen hohen Energiegehalt, enthält viele ätherische Öle, ist reich an Enzymen sowie Vitaminen und enthält viele Mineralstoffe."
 
     [[params.work.row]]
       img = "ALFALFA.jpg"
       alt = "Image2"
       title = "Alfalfa"
-      subtitle = "Alfalfa bedeutet wörtlich übersetzt „gutes Futter“ . Ihr mild nussiger Geschmack ist frisch und delikat, so dass sie in vielfältiger Form zubereitet werden kann (z.B. Salate, Suppen, Eierspeisen, Gemüsebeilagen, Gemüsesäfte, Brotbelag etc.). Weil Alfalfa-Micros sofort nach dem Marinieren zusammenfallen, sollten sie immer oben auf andere Salate gestreut und erst am Tisch angemacht werden. Alfalfa ist kalorienarm und sehr vitaminreich und eignet sich auch bestens als erste grüne Nahrung für Kleinkinder. Gekeimt ist Alfalfa ein Vitalstoffwunder. Nur Getreidegrün liefert mehr Eiweiß und Chlorophyll! Außerdem enthalten Alfalfamicrogreens alle 8 essenziellen Aminosäuren, reichlich Mineralstoffe und Vitamine - insbesondere Vitamin C. Alfalfa ist kalorienarm und sehr vitaminreich. "
+      subtitle = "Alfalfa bedeutet wörtlich übersetzt „gutes Futter“ . Ihr mild nussiger Geschmack ist frisch und delikat, so dass sie in vielfältiger Form zubereitet werden kann (z.B. Salate, Suppen, Eierspeisen, Gemüsebeilagen, Gemüsesäfte, Brotbelag etc.). Weil Alfalfa-Micros sofort nach dem Marinieren zusammenfallen, sollten sie immer oben auf andere Salate gestreut und erst am Tisch angemacht werden. Alfalfa ist kalorienarm und sehr vitaminreich und eignet sich auch bestens als erste grüne Nahrung für Kleinkinder. Gekeimt ist Alfalfa ein Vitalstoffwunder. Nur Getreidegrün liefert mehr Eiweiß und Chlorophyll! Außerdem enthalten Alfalfajungpflanzen alle 8 essenziellen Aminosäuren, reichlich Mineralstoffe und Vitamine - insbesondere Vitamin C. Alfalfa ist kalorienarm und sehr vitaminreich. "
 
     [[params.work.row]]
       img = "AMARANTH.jpg"
@@ -127,7 +127,7 @@ theme = "hugo-elate-theme"
       img = "GELBSENF.jpg"
       alt = "Image4"
       title = "Gelbsenf"
-      subtitle = "Der Geschmack ist würzig-scharf und erinnert an Meerrettich. Der schwarze Senf ist schärfer als der weiße Senf und wird häufiger als Heilmittel verwendet. Schmeckt toll in Salaten, Suppen, Kräuterquarks, scharfe Gemüse-, Fleisch- und Fischgerichte und auch prima auf Wurst- und Käsebroten. Schwere Speisen werden durch die Beigabe Senf-Microgreens leichter verdaulich. Durch Erwärmen lässt die Schärfe nach. Vitalstoffe. Die frischen Senf-Greenies sind reich Vitaminen A, B, C, E und K und den Mineralien Calcium, Eisen, Kalium, Magnesium und Zink. Sie enthalten außerdem 30 – 35 % Protein und vor allem das gesunde ätherische Senföl."
+      subtitle = "Der Geschmack ist würzig-scharf und erinnert an Meerrettich. Der schwarze Senf ist schärfer als der weiße Senf und wird häufiger als Heilmittel verwendet. Schmeckt toll in Salaten, Suppen, Kräuterquarks, scharfe Gemüse-, Fleisch- und Fischgerichte und auch prima auf Wurst- und Käsebroten. Schwere Speisen werden durch die Beigabe von Senf-Jungpflanzen leichter verdaulich. Durch Erwärmen lässt die Schärfe nach. Vitalstoffe. Die frischen Senf-Greenies sind reich Vitaminen A, B, C, E und K und den Mineralien Calcium, Eisen, Kalium, Magnesium und Zink. Sie enthalten außerdem 30 – 35 % Protein und vor allem das gesunde ätherische Senföl."
 
     [[params.work.row]]
       img = "CHIA.jpg"
@@ -151,13 +151,14 @@ theme = "hugo-elate-theme"
       img = "BROKKOLI.jpg"
       alt = "Image8"
       title = "Brokkoli"
-      subtitle = "Brokkoli-Microgreens haben eine frische, sehr leichte Schärfe. Brokkoli-Microgreens  haben im Vergleich zu Brokkoligemüse 50 x mehr Senföl und Schwefelverbindungen (die so genannten Glucosinolate). Sie enthalten reichlich Mineralstoffe (Chrom, Eisen, Fluorid, Jod, Kalium, Kalzium, Kupfer, Mangan, Magnesium Natrium, Phosphor und Zink), die Vitamine B1, B2, B3, B6, C, E, K und Provitamin A sowie die wertvollen sekundären Pflanzenstoffe: Flavonoide, Isoflavonoide, Glucosinolate, Polyphenole, Senföle und Carotin. "
+      subtitle = "Brokkoli-Jungpflanzen haben eine frische, sehr leichte Schärfe. Brokkoli-Jungpflanzen haben im Vergleich zu Brokkoligemüse 50 x mehr Senföl und Schwefelverbindungen (die so genannten Glucosinolate). Sie enthalten reichlich Mineralstoffe (Chrom, Eisen, Fluorid, Jod, Kalium, Kalzium, Kupfer, Mangan, Magnesium Natrium, Phosphor und Zink), die Vitamine B1, B2, B3, B6, C, E, K und Provitamin A sowie die wertvollen sekundären Pflanzenstoffe: Flavonoide, Isoflavonoide, Glucosinolate, Polyphenole, Senföle und Carotin. "
 
     [[params.work.row]]
       img = ""
       alt = "To Be Continued.."
       title = " G - heim"
       subtitle = "Top Sekret!"
+
 
   # ----------------------------PRODUKTPALETTE GOURMETPILZE
   [params.workb]
@@ -187,7 +188,7 @@ theme = "hugo-elate-theme"
 #Er ist kräftig intensiv und den Geschmack haben sie noch eine halbe Stunde danach im Mund
 #Tipp:
 #für kurzgebratene Sachen oder Schmoren geeignet.
-#Shiitake mögen Thymian, Rosmarin und Petersilie.:
+#Shiitake mögen Thymian, Rosmarin und Petersilie.
 
    [[params.workb.row]]
      img = "ENOKI.jpg"
@@ -200,7 +201,6 @@ theme = "hugo-elate-theme"
      # Der Enoki stimuliert unter anderem die Interferon-Gamma-Produktion, die bei der Immunantwort des Organismus von großer Bedeutung ist. Bemerkenswert ist der modulierende Effekt auf das Immunsystem. Deshalb kann der Enoki zum Schutz vor Infektionen ebenso wie bei überschießenden Abwehrreaktionen (zum Beispiel Allergien) eingesetzt werden.
      # • Chronisches Müdigkeitssyndrom
      # Als vitalisierender Pilz mit hohem Gehalt an Polysacchariden kann der Enoki auch bei chronischem Müdigkeitssyndrom, wie es unter anderem als Begleiterscheinung anderer Erkrankungen auftritt, eingesetzt werden.
-
 
 
   [params.testimonials]
@@ -245,6 +245,8 @@ theme = "hugo-elate-theme"
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
       icon = "icon-cloud-download"
 
+
+
     # [[params.services.item]]
     #  title = "Web &amp; Interface"
     #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
@@ -257,9 +259,15 @@ theme = "hugo-elate-theme"
 
   # About section
   [params.about]
-    enable = false
-    title = "VIDEO"
-    description = "PLATZHALTER"
+    enable = true
+    title = "Das Video"
+    description = "In diesem Kurzfilm legen wir unsere Arbeitsweise, sowie die Firmenpolitik visuell dar."
+
+    [params.about.video]
+      enable = true
+      title = "Sieh dir das Video an!"
+      icon = "icon-play2"
+      url = "https://www.youtube.com/watch?v=mCSrPOwjzr0"
 
 
     #[[params.about.item]]
