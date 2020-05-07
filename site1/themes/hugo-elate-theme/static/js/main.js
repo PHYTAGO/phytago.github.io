@@ -158,30 +158,18 @@
 
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
-					var els = $('#fh5co-home .to-animate');
-					setInterval(function() {
-			 				els.each(function( k ) {
+
+					setTimeout(function() {
+						$('#fh5co-home .to-animate').each(function( k ) {
 							var el = $(this);
 
 							setTimeout ( function () {
-							  el.removeClass('fadeOutRight');
-								el.addClass('fadeInLeft animated');
-							},  ( k ) * 2500, 'easeInOutExpo' );
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
 
 						});
+					}, 200);
 
-
-						els.each(function( k ) {
-							var el = $(this);
-
-							setTimeout ( function () {
-								el.removeClass('fadeInLeft');
-								el.addClass('fadeOutRight animated');
-							},  ( k + els.lenght ) * 2500, 'easeInOutExpo' );
-
-						   });
-
-					},( 2 *	els.lenght + 1) * 2500);
 
 					$(this.element).addClass('animated');
 
@@ -190,7 +178,6 @@
 
 		}
 	};
-
 
 	var introAnimate = function() {
 		if ( $('#fh5co-intro').length > 0 ) {

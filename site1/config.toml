@@ -19,14 +19,15 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "**P H Y T A G O**"
-    home = "Startseite"
+    intro = "Produkte"
+    services = "Besonderheiten"
+    counters = "Philosophie"
+    testimonials = "Über uns"
+    contact = "Kontakt"
+    account = "Kundenbereich"
     work = "Jungpflanzen"
     workb = "Gourmetpilze"
-    product = "**Produkte**"
-    testimonials = "Gourmetpilze"
-    services = "Produktion"
-    about = "Wir"
-    contact = "Kontakt"
+    about = "Philosophie"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -38,15 +39,16 @@ theme = "hugo-elate-theme"
       #weight = 9
 
     # postpended links
-    [[menu.postpend]]
-      url = "#fh5co-counters"
-      name = "Philosophie"
-      weight = 11
+    # [[menu.postpend]]
+    #   url = "#fh5co-counters"
+    #   name = "Philosophie"
+    #   weight = 11
 
     [[menu.postpend]]
-      url = "#"
-      name = "Mein PHYTAGO"
+      url = "login"
+      name = "Kundenbereich"
       weight = 12
+
 
   # Hero section
   [params.hero]
@@ -60,29 +62,30 @@ theme = "hugo-elate-theme"
   # Intro section
   # Available icons: https://simplelineicons.com/
   [params.intro]
+
   [[params.intro.item]]
     title = "Jungpflanzen"
     description = "Unsere Jungpflanen tragen in die geballte Energie in sich, die die Pflanze benötigt, um groß zu werden. Der Anteil an Vitaminen, Spurenelementen (besonders Vitamin A, B6, C und Eisen) sowie Proteinen ist daher in den kleinen Pflänzchen um ein Vielfaches höher als in der gleichen Menge des ausgewachsenen Gemüses. "
-    url = "#fh5co-work"
-    button = "Zur Produktpalette"
+    url = "/produkte"
+    button = "Jungpflanzen"
     icon = "icon-heart"
     img = "Microgreens.jpg"
 
   [[params.intro.item]]
     title = "Gourmetpilze"
     description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
-    url = "#fh5co-workb"
-    button = "Zur Produktpalette"
+    url = "/gourmetpilze"
+    button = "Gourmetpilze"
     icon = "icon-diamond"
     img = "Pilze.jpg"
 
-  #  [[params.intro.item]]
- #    title = "RTS"
-  #    description =
-  #    url = "/rts.md"
-  #    button = "Zur Produktpalette"
-  #    icon = "icon-diamond"
-  #  img = "Gewuerze.jpg"
+  [[params.intro.item]]
+    title = "Vitalpulver"
+    description = "Vitalstoffe sind überwiegend als Biokatalysatoren in Zellen und Geweben bei Anwesenheit von Wasser, Sauerstoff und Kohlensäure (letztere bei Pflanzen) wirksame lebenswichtige Bestandteile. Dazu gehören nach bisherigen Feststellungen: Enzyme, Co-Enzyme, Vitamine, Hormone, exogen-essentielle Aminosäuren, exogen-essentielle Fettsäuren, Haupt- und Spurenelemente, Duft- und Geschmacksstoffe."
+    url = "/vitalstoffe"
+    button = "Vitalstoffe"
+    icon = "icon-diamond"
+    img = "Gewuerze.jpg"
 
   #  [[params.intro.item]]
   #    title = "Individueller Anbau"
@@ -100,7 +103,7 @@ theme = "hugo-elate-theme"
 
 # Work section
    [params.work]
-    enable = true
+    enable = false
     title = "Unsere Jungpflanzen"
     description = "**frisch und knackig** oder **vakuumgetrocknet und knusprig**"
     footertext = "Jungpflanzen sind, essbare Keimpflanzen, die zur Zeit vor allem in der gehobenen Gastronomie sowohl zur optischen als auch zur geschmacklichen Bereicherung von Gerichten eingesetzt werden. Köche benutzen Jungpflanzen, um die Attraktivität und den Geschmack ihrer Menüs zu erhöhen. Kleiner als Jungpflanzen, aber später geernet als Sprossen, weisen die verschiedenen Jungpflanzen eine Vielzahl an Geschmacksrichtungen auf, wie beispielsweise scharf oder süß. Desweiteren werden sie aufgrund ihrer vielfältigen Farbtöne und Texturen geschätzt. Jungpflanzen lassen sich hervorragend für das Garnieren von Salaten, Suppen, Sandwiches, Smoothies und anderen Gerichten verwenden. Das 'junge Grün' kann aus den Samen verschiedenster Arten von Gemüse, Kräutern und anderen Pflanzen gezogen werden. Die Ernte-Größe beläuft sich auf ca. 2,5 bis 7,5 cm mit Stängel und Blättern. Ein Jungpflanzen hat einen einzigen Stängel, der bei der Ernte knapp über der Erde abgeschnitten wird. Dabei kann es neben den voll entwickelten Keimblättern in der Regel auch schon die ersten richtigen Blätter aufweisen er Vorteil der Jungpflanzen gegenüber Sprossen liegt - ausser der Fähigkeit die wertvollen Nährstoffe des Bodens aufzunehmen - darin, dass sie durch das Sonnenlicht Chlorophyll bilden. Dabei werden die Inhaltsstoffe des Samens aufgewertet und hochwertiges Eiweiß gebildet.  Mit der Grünung wird die Kraft, Energie und die sonnenlichtwertigen Potentiale erhöht. Das kann bei Pflanzen mit nachgesagter Heilwirkung die Heilkraft erhöhen. Bei Pflanzen wie Rettich, Senf etc. werden während des Wachstums die ätherischen Öle und Bitterstoffe gebildet und erhöhen damit ihre pharmakologische Wirkung."
@@ -162,7 +165,7 @@ theme = "hugo-elate-theme"
 
   # ----------------------------PRODUKTPALETTE GOURMETPILZE
   [params.workb]
-   enable = true
+   enable = false
    title = "Unsere Gourmetpilze"
    description = "Pilze sind nicht nur Nahrungs- und Genußmittel, sondern gelten mittlerweile auch als gesundheitsfördernd. Das Spektrum reicht von Abnehmen bis hin zu entzündungshemmender Wirkung. Sie regulieren den Säure-Base-Haushalt, haben einen recht hohen Gehalt an Kohlenhydraten dafür aber sehr wenig Fette."
    footertext = 'Produkte werden nach Betriebsphilosophie aus ökologischer Kreislaufproduktion gewonnen und unterliegen hohen Qualitätsstandarts.'
@@ -204,48 +207,47 @@ theme = "hugo-elate-theme"
 
 
   [params.testimonials]
-    enable = false
-    title = "Produktpalette - Gourmetpilze"
+    enable = true
+    title = "Das TEAM"
    # description = "Portfolios unserer Gourmetpilze"
-    description = "Unsere Gourmetpilze stellen sich vor"
+    description = "Unsere kompetenten Kontaktpersonen"
 
 
     [[params.testimonials.item]]
-      quote = "Unser Rosenseitling besticht durch eine saftige rosa Farbe und sein fleischig nussiges Aroma."
-      person = 'Rosenseitling - die Schönheit unter den Pilzen'
-      img = "rosenseitling.png"
-      alt = "Rosenseitling"
+      quote = "BLIHHHHBLAHHHHHBLUUBILUB LUBLUB"
+      person = 'Max Mustermann'
+      img = "person1.png"
+      alt = "bild"
 
     [[params.testimonials.item]]
-      quote = "Unsere Shiitake fördern die Konzentration und sind reich an Vitamin B und D."
-      person = 'Shiitake'
-      img = "SHITAKE.jpg"
-      alt = "Shiitake"
+      quote = "BLIHHHHBLAHHHHHBLUUBILUB LUBLUB"
+      person = 'Martina Musterfrau'
+      img = "person2.png"
+      alt = "bild"
 
     [[params.testimonials.item]]
-      quote = "Der sehr exotische Enoki überzeugt mit einer herrlichen Geschmacksnote."
-      person = 'Enoki'
-      img = "ENOKI.jpg"
-      alt = "Enoki"
+      quote = "BLIHHHHBLAHHHHHBLUUBILUB LUBLUB"
+      person = 'Stein Musterding'
+      img = "person3.png"
+      alt = "bild"
 
 
   # Services section
   [params.services]
     enable = true
     title = "Besonderheiten der Produktion"
-    description = "Der Workflow des Herstellungsprozesses ist nicht nur für den Menschen optimiert, sondern auch nachhaltig und umweltbewusst konzipiert."
+    description = "Der Workflow des Herstellungsprozesses ist nicht nur für den Menschen optimiert, sondern auch nachhaltig und umweltbewusst konzipiert. Ganz prima mit dem Streben nach ZeroWaste."
+
+    [[params.services.item]]
+      title = "Individualisierter, bedarfsorientierte Versorgung"
+      description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
+      icon = "icon-cloud-download"
+
 
     [[params.services.item]]
       title = "RST - Ressource-Saving-Tool "
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
       icon = "icon-puzzle"
-
-    [[params.services.item]]
-      title = "Individualisierter Anbau und bedarfsorientierte Versorgung"
-      description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
-      icon = "icon-cloud-download"
-
-
 
     # [[params.services.item]]
     #  title = "Web &amp; Interface"
@@ -260,12 +262,12 @@ theme = "hugo-elate-theme"
   # About section
   [params.about]
     enable = true
-    title = "Das Video"
-    description = "In diesem Kurzfilm legen wir unsere Arbeitsweise, sowie die Firmenpolitik visuell dar."
+    title = "Kurzfilm - PHYTAGO"
+    description = "In diesem Kurzfilm legen wir unsere Arbeitsweise dar, erklären Euch warum wir das machen und wie wir überhaupt dazukamen."
 
     [params.about.video]
       enable = true
-      title = "Sieh dir das Video an!"
+      # title = "Sieh dir das Video an!"
       icon = "icon-play2"
       url = "https://www.youtube.com/watch?v=mCSrPOwjzr0"
 
@@ -309,7 +311,7 @@ theme = "hugo-elate-theme"
       speed = 200
 
    [[params.counters.item]]
-      description = "Kürzere Transportwege"
+      description = "Kürzerer Transport"
       icon = "icon-plane"
       from = 0
       to = 97
@@ -317,7 +319,7 @@ theme = "hugo-elate-theme"
       speed = 200
 
     [[params.counters.item]]
-       description = "Weniger Wasserverbrauch"
+       description = "Weniger Wasser"
        icon = "icon-drop"
        from = 0
        to = 90
