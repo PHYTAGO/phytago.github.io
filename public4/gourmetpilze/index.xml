@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gourmetpilzes on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</title>
+    <link>localhost:1313/gourmetpilze/</link>
+    <description>Recent content in Gourmetpilzes on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2020 23:22:06 +0200</lastBuildDate>
+    
+	<atom:link href="localhost:1313/gourmetpilze/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shi Take</title>
+      <link>localhost:1313/gourmetpilze/shi-take/</link>
+      <pubDate>Wed, 08 Apr 2020 23:22:06 +0200</pubDate>
+      
+      <guid>localhost:1313/gourmetpilze/shi-take/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enoki</title>
+      <link>localhost:1313/gourmetpilze/enoki/</link>
+      <pubDate>Wed, 08 Apr 2020 23:21:56 +0200</pubDate>
+      
+      <guid>localhost:1313/gourmetpilze/enoki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rosensaitling</title>
+      <link>localhost:1313/gourmetpilze/rosensaitling/</link>
+      <pubDate>Wed, 08 Apr 2020 23:21:47 +0200</pubDate>
+      
+      <guid>localhost:1313/gourmetpilze/rosensaitling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

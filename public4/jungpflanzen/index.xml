@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jungpflanzens on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</title>
+    <link>localhost:1313/jungpflanzen/</link>
+    <description>Recent content in Jungpflanzens on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2020 23:21:12 +0200</lastBuildDate>
+    
+	<atom:link href="localhost:1313/jungpflanzen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sesam</title>
+      <link>localhost:1313/jungpflanzen/sesam/</link>
+      <pubDate>Wed, 08 Apr 2020 23:21:12 +0200</pubDate>
+      
+      <guid>localhost:1313/jungpflanzen/sesam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brokkoli</title>
+      <link>localhost:1313/jungpflanzen/brokkoli/</link>
+      <pubDate>Wed, 08 Apr 2020 23:20:58 +0200</pubDate>
+      
+      <guid>localhost:1313/jungpflanzen/brokkoli/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
