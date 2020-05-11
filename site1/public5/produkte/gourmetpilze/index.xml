@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</title>
+    <link>localhost:1313/produkte/gourmetpilze/</link>
+    <description>Recent content on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2020 08:10:50 +0200</lastBuildDate>
+    
+	<atom:link href="localhost:1313/produkte/gourmetpilze/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rosenseitling</title>
+      <link>localhost:1313/produkte/gourmetpilze/rosenseitling/</link>
+      <pubDate>Thu, 23 Apr 2020 08:10:50 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/gourmetpilze/rosenseitling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shitake</title>
+      <link>localhost:1313/produkte/gourmetpilze/shitake/</link>
+      <pubDate>Thu, 23 Apr 2020 08:10:44 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/gourmetpilze/shitake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enoki</title>
+      <link>localhost:1313/produkte/gourmetpilze/enoki/</link>
+      <pubDate>Thu, 23 Apr 2020 08:10:35 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/gourmetpilze/enoki/</guid>
+      <description>Die Bedeutung des Enoki als Vitalpilz nimmt stetig zu, seit eine japanische Studie nachweisen konnte, dass die Krebserkrankungsrate von Züchtern des Enoki deutlich niedriger als in der Normalbevölkerung ist. Vermutlich ist der Enoki einer der ersten gezielt kultivierten Speisepilze überhaupt. Sein Anbau lässt sich bis in die späte chinesische Tang-Dynastie in den Jahren 800 bis 900 zurückdatieren. Seine einfache Kultivierung macht ihn auch für die Forschung attraktiv. So wurde im Rahmen der Spacelab-Mission D-2 im Jahr 1993 der Einfluss der Schwerkraft auf das Wachstum des Enoki untersucht.</description>
+    </item>
+    
+  </channel>
+</rss>
