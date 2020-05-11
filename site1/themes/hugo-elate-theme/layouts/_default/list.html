@@ -1,49 +1,32 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        {{ partial "head.html" .}}
-    </head>
 
-    <body>
-    {{ partial "nav.html" .}}
+{{ define "content" }}
+<section id="fh5co-work" data-section="work">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="to-animate">{{ with .Site.Params.work.title }}{{ . }}{{ end }}</h2>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 subtext to-animate">
+            <h3>{{ with .Site.Params.work.description }}{{ . | markdownify }}{{ end }}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		{{ partial "hero.html" .}}
-
-    {{ partial "intro.html" .}}
-
-		{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
-   	{{ end }}
-
-    {{ if .Site.Params.workb.enable }}
-          {{ partial "workb.html" .}}
-    {{ end }}
-
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
-		{{ end }}
-
-		{{ if .Site.Params.counters.enable }}
-        	{{ partial "counters.html" .}}
-    {{ end }}
-
-    {{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
-		{{ end }}
-
-    {{ if .Site.Params.testimonials.enable }}
-          {{ partial "testimonials.html" .}}
-    {{ end }}
-
-		{{ if .Site.Params.contact.enable }}
-        	{{ partial "contact.html" .}}
+  		<div class="row row-bottom-padded-sm">
+        {{ range .Pages }}
+          {{ .Render "li" }}
         {{ end }}
+      </div>
 
-        {{ if .Site.Params.footer.enable }}
-        	{{ partial "footer.html" .}}
-        {{ end }}
+    <div class="row">
+      <div class="col-md-12 text-center to-animate">
+        <p>{{ .Site.Params.work.footertext | markdownify }}</p>
+      </div>
+    </div>
 
-        {{ partial "js.html" .}}
-    </body>
+  </div>
 
-</html>
+
+  </section>
+{{ end }}

@@ -66,15 +66,15 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Jungpflanzen"
     description = "Unsere Jungpflanen tragen in die geballte Energie in sich, die die Pflanze benötigt, um groß zu werden. Der Anteil an Vitaminen, Spurenelementen (besonders Vitamin A, B6, C und Eisen) sowie Proteinen ist daher in den kleinen Pflänzchen um ein Vielfaches höher als in der gleichen Menge des ausgewachsenen Gemüses. "
-    url = "/produkte"
+    url = "/produkte/jungpflanzen"
     button = "Jungpflanzen"
-    icon = "icon-heart"
+    icon = "icon-plant"
     img = "Microgreens.jpg"
 
   [[params.intro.item]]
     title = "Gourmetpilze"
     description = "Unsere Speisepilze genießen in der Welt generell ein hohes Ansehen und leisten einen wichtigen Beitrag für die gesunde Ernährung. Sie schmecken nicht nur herrvoragend, sondern liefern dem Körper neben Eiweißen, auch wichtige Vitamine und Spurenelemente. (Vitamin A, B2, B5, D, Eisen, Zink und Selen) Sie sind echte Multitalente."
-    url = "/gourmetpilze"
+    url = "/produkte/gourmetpilze"
     button = "Gourmetpilze"
     icon = "icon-diamond"
     img = "Pilze.jpg"
@@ -241,13 +241,14 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "Individualisierter, bedarfsorientierte Versorgung"
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
-      icon = "icon-cloud-download"
+      icon = "icon-dollar"
 
 
     [[params.services.item]]
       title = "RST - Ressource-Saving-Tool "
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
-      icon = "icon-puzzle"
+      icon = "icon-chart"
+      # puzzle
 
     # [[params.services.item]]
     #  title = "Web &amp; Interface"
