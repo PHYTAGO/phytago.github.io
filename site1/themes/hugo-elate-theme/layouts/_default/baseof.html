@@ -8,10 +8,11 @@
         {{ partial "head.html" .}}
     </head>
     <body>
-        {{ partial "nav.html" .}}
+
+        
 
         {{ block "content" .}}
-          
+
         {{ end }}
 
         {{ if .Site.Params.footer.enable }}
