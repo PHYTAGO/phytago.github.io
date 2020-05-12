@@ -247,10 +247,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   position: relative;
-  font-size: 19px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: 500;
 }
 #fh5co-header #navbar li a span {
   position: relative;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7)
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #52d3aa;
+  color: #0fb10f;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -326,14 +326,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #0fb10f;
-  border-bottom: 1px, solid, #0fb10f;
+  color: black;
+
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #0fb10f;
-  border-bottom: 1px, solid, #0fb10f;
+  color: black;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -411,6 +410,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   overflow: hidden;
 }
+
+#myVideo {
+  position: absolute;
+  top:1;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+}
+
 #fh5co-home .gradient {
   position: absolute;
   top: 0;
@@ -728,6 +737,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
+  opacity: 0.8;
   }
 #fh5co-services:before, #fh5co-services:after {
   position: absolute;
@@ -937,11 +947,11 @@ text-align: center;
   text-decoration: underline;
 }
 #fh5co-testimonials .box-testimony .author > figure {
-  width: 20%;
-  height: 75px;
-
+  width: 30%;
+  height: 100px;
   float: left;
   margin-right: 10px;
+  border: 2px solid black;
 }
 #fh5co-testimonials .box-testimony .author > figure img {
   background-color: lightblue;
@@ -949,14 +959,12 @@ text-align: center;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-
 }
 #fh5co-testimonials .box-testimony .author p {
-  width: 75%;
+  width: 50%;
   float: right;
-  text-align: right;
+  text-align: center;
   margin-top: 10px;
-
 }
 #fh5co-testimonials .box-testimony .author .subtext {
   display: block;
@@ -966,6 +974,7 @@ text-align: center;
 }
 
 #fh5co-work {
+  padding-top: 200px;
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
@@ -987,10 +996,11 @@ text-align: center;
 color: white;
 opacity: 1;
 font-size: 20px;
+font-weight: bold;
 }
 
  #fh5co-work a:hover {
-  color: lightgreen;
+  color: lightgrey;
   opacity: 0.7;
   box-shadow: 20px 20px 20px 20px;
   border-radius: 15px 15px 15px 15px;
@@ -1003,7 +1013,7 @@ font-size: 20px;
   -o-transform: rotate(-1.7deg);
   -moz-transform: rotate(-1.7deg);
   background-color: #fff;
-  content: "";
+ content: "";
   z-index: 3;
   display: inline-block;
   height: 70px;
@@ -1025,12 +1035,12 @@ font-size: 20px;
   background: rgba(255, 255, 255, 0.3);
 }
 #fh5co-work .section-heading h3 {
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 #fh5co-work .fh5co-project-item {
   display: block;
   width: 100%;
-  height: 150px;
+  height: 300px;
   position: relative;
   top: 0;
   background: #fff;
@@ -1046,34 +1056,46 @@ font-size: 20px;
   transition: 0.3s;
 }
 #fh5co-work .fh5co-project-item img {
-  width: 35 %;
-  height: auto;
+  width: 45%;
+  height: 93%;
   z-index: 8;
   opacity: 1;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
   float: left;
+  margin: 0.5em;
 }
 #fh5co-work .fh5co-project-item .fh5co-text {
-  max-height: 200px;
-  overflow: scroll;
+  max-height:100%;
+  overflow: hidden;
   font-size: 16px;
-  color:black;
+  color :black;
   margin: 0.25em;
+  text-align: right;
+
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2, #fh5co-work .fh5co-project-item .fh5co-text span {
   text-decoration: none !important;
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2 {
   height:2em;
-  float: right;
+  text-align: center;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
   margin-top:15px;
-  margin-right:30px;
+  margin-right:20px;
 }
+#fh5co-work .fh5co-project-item p {
+  margin-top: 0;
+  color: darkgrey;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 0.75em;
+  text-align: center;
+}
+
 #fh5co-work .fh5co-project-item .fh5co-text span {
   float: left;
   color: #b3b3b3;

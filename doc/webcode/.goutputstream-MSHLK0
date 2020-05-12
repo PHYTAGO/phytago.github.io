@@ -1,0 +1,54 @@
+<html>
+<head>
+	<style>
+		* {
+			border: 1px solid black;
+		}
+		
+		.container > div {
+			flex: 1;
+		}
+		
+		.container {
+			background-color: yellow;
+			width: 75%;
+			margin: 0 auto;
+		}
+		.row {
+			height: 500px;
+			width: 49%;
+			border: 2px solid red;
+			text-align: center;
+		}
+		.block {
+			text-align: right;
+			width: 49%;
+			border: 5px dotted green;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+
+<h1>Div Flex 1</h1>
+
+<section id="">
+	<div class="container ">
+		<div class="row">
+			<div class="block">
+				ICH BIN EIN 1. KÄSTCHEN 
+			</div>
+			
+			<div class="block">
+				ICH BIN EIN 2. KÄSTCHEN
+			</div>
+			
+			<div class="block">
+				ICH BIN EIN 3. KÄSTCHEN
+			</div>
+		</div>
+	</div>
+</section>
+
+</body>
+<html>
