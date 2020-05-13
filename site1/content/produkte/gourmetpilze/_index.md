@@ -1,6 +1,7 @@
 ---
 title: "Gourmetpilze - das Fleisch des Waldes"
 date: 2020-05-12T20:02:36+02:00
+hero: "video-mushrooms1.mp4"
 draft: true
 ---
 Kaum jemand weiß es, aber Pilze sind tatsächlich weder Pflanzen noch Tiere. Sie bilden eine eigene, einheitliche Gruppe unter den sogenannten „Eukaryoten“, Lebewesen, die einen typischen Zellkern aufweisen. Im Gegensatz zu Pflanzen, denen Pilze lange Zeit zugeordnet wurden, besitzen sie kein Blattgrün (Chlorophyll) und betreiben keine Photosynthese. Der Pilzstoffwechsel basiert vielmehr auf der Chemosynthese. So transformieren sie organische Substanzen einschließlich Holz durch Enzyme in chemische Verbindungen, die zur Bildung neuer Bodenmaterialien führen.

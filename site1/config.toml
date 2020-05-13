@@ -3,6 +3,7 @@ baseurl = "localhost:1313"
 title = "PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+video = "video-chia.mp4"
 
 [params]
 
@@ -58,6 +59,7 @@ theme = "hugo-elate-theme"
     subtitle3 = "Ressourcenschonung"
     subtitle4 = "ganzjährig konstante Liefe­rung"
     subtitle5 = "Individualisierter Anbau"
+    video = "video-chia.mp4"
 
   # Intro section
   # Available icons: https://simplelineicons.com/
@@ -241,7 +243,7 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "Individualisierte, bedarfsorientierte Versorgung"
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
-      icon = "icon-dollar"
+      icon = "icon-money"
 
 
     [[params.services.item]]
@@ -305,7 +307,7 @@ theme = "hugo-elate-theme"
 
     [[params.counters.item]]
       description = "Geschmack"
-      icon = "icon-like"
+      icon = "icon-heart"
       from = 0
       to = 100
       interval = 1
@@ -329,7 +331,7 @@ theme = "hugo-elate-theme"
 
      [[params.counters.item]]
         description = "Weniger Dünger"
-        icon = "icon-heart"
+        icon = "icon-wrench"
         from = 0
         to = 90
         interval = 1
@@ -353,7 +355,7 @@ theme = "hugo-elate-theme"
 
       [[params.counters.item]]
          description = "Chemischer Dünger"
-         icon = "icon-leaf"
+         icon = "icon-chemistry"
          from = 100
          to = 0
          interval = 1
