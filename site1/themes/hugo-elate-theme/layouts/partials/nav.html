@@ -11,15 +11,15 @@
                   <ul class="nav navbar-nav navbar-right">
 
                     {{ range .Site.Menus.prepend }}
-                        <li><a class="external" href="/{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
 
 
                     <li class="nav-drop-li"><a href="/index.html" data-nav-section="home"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a>
                         <ul class="nav-drop-ul">
-                          <ul class="nav-drop-li"><a href="/produkte/jungpflanzen">Jungpflanzen</a></ul>
-                          <ul class="nav-drop-li"><a href="/produkte/gourmetpilze">Gourmetpilze</a></ul>
-                          <ul class="nav-drop-li"><a href="/produkte/vitalstoffe">Vitalstoffe</a></ul>
+                          <li class="nav-drop-li"><a href="/produkte/jungpflanzen">Jungpflanzen</a></li>
+                          <li class="nav-drop-li"><a href="/produkte/gourmetplile">Gourmetplize</a></li>
+                          <li class="nav-drop-li"><a href="/produkte/vitalstoffe">Vitalstoffe</a></li>
                         </ul>
                     </li>
 

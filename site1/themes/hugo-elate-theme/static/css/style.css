@@ -23,7 +23,7 @@ body {
   position: relative;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 a {
   color: #52d3aa;
@@ -279,6 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a:hover {
   color: #fff;
+
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -364,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdown-navbar {
   position: absolute;
-  z-index:auto;
+  z-index:999;
 }
 
 @media screen and (max-width: 768px) {
