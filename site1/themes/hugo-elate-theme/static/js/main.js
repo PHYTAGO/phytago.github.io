@@ -51,7 +51,7 @@
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
-			}, 500);
+			}, 200);
 
 			return false;
 		});

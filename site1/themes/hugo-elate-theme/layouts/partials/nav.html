@@ -11,15 +11,15 @@
                   <ul class="nav navbar-nav navbar-right">
 
                     {{ range .Site.Menus.prepend }}
-                        <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a class="external" href="/{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
 
 
-                    <li class="nav-drop-li"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a>
+                    <li class="nav-drop-li"><a href="/index.html" data-nav-section="home"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a>
                         <ul class="nav-drop-ul">
-                          <li class="nav-drop-li"><a href="/produkte/jungpflanzen">Jungpflanzen</a></li>
-                          <li class="nav-drop-li"><a href="/produkte/gourmetpilze">Gourmetpilze</a></li>
-                          <li class="nav-drop-li"><a href="/produkte/vitalstoffe">Vitalstoffe</a></li>
+                          <ul class="nav-drop-li"><a href="/produkte/jungpflanzen">Jungpflanzen</a></ul>
+                          <ul class="nav-drop-li"><a href="/produkte/gourmetpilze">Gourmetpilze</a></ul>
+                          <ul class="nav-drop-li"><a href="/produkte/vitalstoffe">Vitalstoffe</a></ul>
                         </ul>
                     </li>
 
@@ -28,19 +28,19 @@
     <!-- <li class="nav-drop-li"><a href="#fh5co-intro" data-nav-section="intro"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a></li> -->
 
                     {{ if .Site.Params.work.enable }}
-                    <li class="nav-drop-li"><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li class="nav-drop-li"><a href="/index.html" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.workb.enable }}
-                    <li class="nav-drop-li"><a href="#" data-nav-section="workb"><span>{{ with .Site.Params.navigation.workb }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li class="nav-drop-li"><a href="/index.html" data-nav-section="workb"><span>{{ with .Site.Params.navigation.workb }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.services.enable }}
-                  <li class="nav-drop-li"><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a>
-                          <ul class="nav-drop-ul">
+                  <li class="nav-drop-li"><a href="/index.html" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a>
+                          <!-- <ul class="nav-drop-ul">
                             <li><a href="fh5co-work.md">Individualisierter Anbau</a></li>
                             <li><a href="fh5co-workb.md">RTS</a></li>
-                          </ul>
+                          </ul> -->
                       </li>
                     {{ end }}
 
@@ -53,11 +53,11 @@
                     {{ end }}
 
                     {{ if .Site.Params.testimonials.enable }}
-                      <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
+                      <li><a href="/index.html" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.contact.enable }}
-                    <li><a href="#" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="/index.html" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ range .Site.Menus.postpend }}

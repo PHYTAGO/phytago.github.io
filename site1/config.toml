@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["/css/custom1.css", "/css/custom2.css"]
 
   # Meta
   author = ""
@@ -410,7 +410,7 @@ theme = "hugo-elate-theme"
     enable = true
     copyright = '&copy; PHYTAGO, All Rights Reserved. '
     links = [
-        ["icon-lock", "Datenschutz"],
-        ["icon-paperclip", "AGB"],
-        ["icon-money", "Impressum"]
+        ["icon-lock", "/verwaltung/datenschutz"],
+        ["icon-paperclip", "/verwaltung/agb"],
+        ["icon-money", "/verwaltung/impressum"]
       ]
