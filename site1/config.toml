@@ -45,7 +45,7 @@ theme = "hugo-elate-theme"
     #   weight = 11
 
     [[menu.postpend]]
-      url = "/login"
+      url = "/kundenbereich"
       name = "Kundenbereich"
       weight = 12
 
@@ -239,7 +239,7 @@ theme = "hugo-elate-theme"
     description = "Der Workflow des Herstellungsprozesses ist nicht nur für den Menschen optimiert, sondern auch nachhaltig und umweltbewusst konzipiert. Ganz prima mit dem Streben nach ZeroWaste."
 
     [[params.services.item]]
-      title = "Individualisierter, bedarfsorientierte Versorgung"
+      title = "Individualisierte, bedarfsorientierte Versorgung"
       description = "Hier ist Platz für eine Grafik, und eine Beschreibung."
       icon = "icon-dollar"
 
@@ -305,7 +305,7 @@ theme = "hugo-elate-theme"
 
     [[params.counters.item]]
       description = "Geschmack"
-      icon = "icon-star"
+      icon = "icon-like"
       from = 0
       to = 100
       interval = 1
@@ -329,7 +329,7 @@ theme = "hugo-elate-theme"
 
      [[params.counters.item]]
         description = "Weniger Dünger"
-        icon = "icon-globe"
+        icon = "icon-heart"
         from = 0
         to = 90
         interval = 1
@@ -337,7 +337,7 @@ theme = "hugo-elate-theme"
 
       [[params.counters.item]]
         description = "Pestizide"
-        icon = "icon-target"
+        icon = "icon-close"
         from = 100
         to = 0
         interval = 1
@@ -353,7 +353,7 @@ theme = "hugo-elate-theme"
 
       [[params.counters.item]]
          description = "Chemischer Dünger"
-         icon = "icon-chemistry"
+         icon = "icon-leaf"
          from = 100
          to = 0
          interval = 1
@@ -361,7 +361,7 @@ theme = "hugo-elate-theme"
 
        [[params.counters.item]]
           description = "Ausfall"
-          icon = "icon-speedometer"
+          icon = "icon-loop"
           from = 100
           to = 0
           interval = 1
@@ -412,5 +412,5 @@ theme = "hugo-elate-theme"
     links = [
         ["icon-lock", "/verwaltung/datenschutz"],
         ["icon-paperclip", "/verwaltung/agb"],
-        ["icon-money", "/verwaltung/impressum"]
+        ["icon-people", "/verwaltung/impressum"]
       ]
