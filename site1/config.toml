@@ -45,7 +45,7 @@ theme = "hugo-elate-theme"
     #   weight = 11
 
     [[menu.postpend]]
-      url = "/kundenbereich"
+      url = "/verwaltung/kundenbereich"
       name = "Kundenbereich"
       weight = 12
 
