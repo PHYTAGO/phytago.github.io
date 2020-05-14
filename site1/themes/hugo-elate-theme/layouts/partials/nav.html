@@ -15,7 +15,7 @@
                     {{ end }}
 
 
-                    <li class="nav-drop-li"><a href="/index.html" data-nav-section="home"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a>
+                    <li class="nav-drop-li"><a href="/#products" data-nav-section="home"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a>
                         <ul class="nav-drop-ul">
                           <li class="nav-drop-li"><a href="/produkte/jungpflanzen">Jungpflanzen</a></li>
                           <li class="nav-drop-li"><a href="/produkte/gourmetpilze">Gourmetpilze</a></li>
@@ -28,15 +28,15 @@
     <!-- <li class="nav-drop-li"><a href="#fh5co-intro" data-nav-section="intro"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a></li> -->
 
                     {{ if .Site.Params.work.enable }}
-                    <li class="nav-drop-li"><a href="/index.html" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li class="nav-drop-li"><a href="" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.workb.enable }}
-                    <li class="nav-drop-li"><a href="/index.html" data-nav-section="workb"><span>{{ with .Site.Params.navigation.workb }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li class="nav-drop-li"><a href="" data-nav-section="workb"><span>{{ with .Site.Params.navigation.workb }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.services.enable }}
-                  <li class="nav-drop-li"><a href="/index.html" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a>
+                    <li class="nav-drop-li"><a href="/#services" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a>
                           <!-- <ul class="nav-drop-ul">
                             <li><a href="fh5co-work.md">Individualisierter Anbau</a></li>
                             <li><a href="fh5co-workb.md">RTS</a></li>
@@ -49,15 +49,15 @@
                     {{ end }} -->
 
                     {{ if .Site.Params.counters.enable }}
-                      <li><a href="#" data-nav-section="counters"><span>{{ with .Site.Params.navigation.counters }}{{ . | markdownify }}{{ end }}</span></a></li>
+                      <li><a href="/#counters" data-nav-section="counters"><span>{{ with .Site.Params.navigation.counters }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.testimonials.enable }}
-                      <li><a href="/index.html" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
+                      <li><a href="/#testimonials" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.contact.enable }}
-                    <li><a href="/index.html" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="/#contact" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     {{ range .Site.Menus.postpend }}

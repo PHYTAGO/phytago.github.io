@@ -169,9 +169,16 @@
 						$('#fh5co-home .to-animate').each(function( k ) {
 							var el = $(this);
 
-							setTimeout ( function () {
-								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							if (k % 2 == 1) {
+								setTimeout ( function () {
+									el.addClass('fadeInLeftBig animated');
+								},  k * 750, 'easeInOutExpo' );
+							}
+							else {
+								setTimeout ( function () {
+									el.addClass('fadeInRightBig animated');
+								},  k * 750, 'easeInOutExpo' );
+							}
 
 						});
 					}, 200);
