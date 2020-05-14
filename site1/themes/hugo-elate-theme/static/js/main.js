@@ -72,6 +72,12 @@
 			    	}, 500);
 			   }
 
+				 if ( $('[data-section<>"' + section + '"]').length ) {														 //NAVBAR LINKS CLICKBAR
+ 			    	$('html, body').animate({																												//NAVBAR LINKS CLICKBAR
+ 			        	scrollTop: $('[data-section="'/ + section + '"]').offset().top								//NAVBAR LINKS CLICKBAR
+ 			    	}, 500);
+ 			   }
+
 		    if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
 		    	navbar.attr('aria-expanded', 'false');

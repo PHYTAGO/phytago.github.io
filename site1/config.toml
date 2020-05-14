@@ -108,74 +108,74 @@ video = "video-chia.mp4"
     enable = false
     title = ""
     description = ""
-    footertext = "Produkte werden nach Betriebsphilosophie aus ökologischer Kreislaufproduktion gewonnen und unterliegen hohen Qualitätsstandarts."
+    footertext = ""
 
     [[params.work.row]]
-      img = "BASILIKUM.jpg"
-      alt = "Basilikum"
-      title = "Basilikum"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
       img = ""
-      alt = "Image2"
-      title = "Alfalfa"
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "AMARANTH.jpg"
-      alt = "Image3"
-      title = "Amerant"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "GELBSENF.jpg"
-      alt = "Image4"
-      title = "Gelbsenf"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "CHIA.jpg"
-      alt = "Image5"
-      title = "Chia"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "RUCOLA.jpg"
-      alt = "Image6"
-      title = "Rucola"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "SESAM.png"
-      alt = "Image7"
-      title = "Sesam"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "BROKKOLI.jpg"
-      alt = "Image8"
-      title = "Brokkoli"
+      img = ""
+      alt = ""
+      title = ""
       subtitle = ""
 
     [[params.work.row]]
-      img = "rettich.png"
-      alt = "To Be Continued.."
-      title = "Rettich"
-      subtitle = "Top Sekret!"
+      img = ""
+      alt = ""
+      title = ""
+      subtitle = " "
 
 
   # ----------------------------PRODUKTPALETTE GOURMETPILZE
   [params.workb]
    enable = false
-   title = "Unsere Gourmetpilze"
+   title = " "
    description = ""
    footertext = ''
 
    [[params.workb.row]]
-     img = "rosenseitling.png"
-     alt = "Image2"
-     title = "Rosenseitling - Die Schönheit"
+     img = ""
+     alt = ""
+     title = ""
      subtitle = ""
 #Beschreibung:
 #Hierzulande ist der Rosenseitling wegen seiner einzigartigen Farbe und Geschmacks ein beliebt.
@@ -185,9 +185,9 @@ video = "video-chia.mp4"
 #Valentintag-für Koch*in: ein kleines Töpfchn mit angezüchteten Rosenseitlingen,
 
    [[params.workb.row]]
-     img = "SHITAKE.jpg"
-     alt = "Image2"
-     title = "Shi Take - Der König des Aromas"
+     img = ""
+     alt = ""
+     title =  ""
      subtitle = ""
 #Beschreibung:
 #Er ist kräftig intensiv und den Geschmack haben sie noch eine halbe Stunde danach im Mund
