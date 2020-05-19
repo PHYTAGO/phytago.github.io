@@ -3,6 +3,9 @@ title: "Alfalfa"
 date: 2020-04-23T08:09:07+02:00
 draft: true
 image: "ALFALFA1.png"
+herovideo: "video-rettich-big1.mp4"
+herotext: []
+heroheight: 350px
 info: ""
 ---
 

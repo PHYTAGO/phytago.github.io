@@ -1,8 +1,9 @@
 ---
-title: "Imporessum"
+title: "AGB"
 date: 2020-05-12T20:02:36+02:00
 draft: true
 description: ""
+heroheight: 350px;
 slug: "AGB"
 ---
 Allgemeine Geschäftsbedingungen

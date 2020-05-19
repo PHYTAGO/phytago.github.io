@@ -3,6 +3,9 @@ title: "Shitake"
 date: 2020-04-23T08:10:44+02:00
 draft: true
 image: "SHITAKE1.png"
+herovideo: ""
+herotext: []
+heroheight: 350px
 ---
  König der Aromen -
 Nach dem Champignon ist er der meistangebaute Speisepilz überhaupt. In Ostasien ist er die Nummer eins unter den angebauten Pilzen, auch in Russland ist er inzwischen sehr verbreitet.

@@ -6,6 +6,6 @@ herotext: []
 heroheight: 250px
 draft: true
 ---
-Unsere Vitalstoffe aus eigener Produktion. Für Sie natürlich gehecksel, zermörsert und vakuumiert. Natürlich auch im ökoligisch wertvollen Plastikbeutel mit Zellstoffgrundlage.
+Unsere Vitalstoffe aus eigener Produktion. Für Sie natürlich geheckselt, zermörsert und vakuumiert. Natürlich auch im ökoligisch wertvollen Plastikbeutel mit Zellstoffgrundlage.
 
 Probieren Sie sich durch und werden sie gesundheitlich unantastbar!

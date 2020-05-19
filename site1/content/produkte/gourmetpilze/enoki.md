@@ -3,8 +3,11 @@ title: "Enoki"
 date: 2020-04-23T08:10:35+02:00
 draft: true
 image: "ENOKI1.png"
+herovideo: ""
+herotext: []
+heroheight: 350px
 ---
-Die Kleine Flamme des Lebens - Die Bedeutung des Enoki als Vitalpilz nimmt stetig zu, seit eine japanische Studie nachweisen konnte, dass die Krebserkrankungsrate von Züchtern des Enoki deutlich niedriger als in der Normalbevölkerung ist. Vermutlich ist der Enoki einer der ersten gezielt kultivierten Speisepilze überhaupt. Sein Anbau lässt sich bis in die späte chinesische Tang-Dynastie in den Jahren 800 bis 900 zurückdatieren. Seine einfache Kultivierung macht ihn auch für die Forschung attraktiv. So wurde im Rahmen der Spacelab-Mission D-2 im Jahr 1993 der Einfluss der Schwerkraft auf das Wachstum des Enoki untersucht.
+<!-- Die Kleine Flamme des Lebens - Die Bedeutung des Enoki als Vitalpilz nimmt stetig zu, seit eine japanische Studie nachweisen konnte, dass die Krebserkrankungsrate von Züchtern des Enoki deutlich niedriger als in der Normalbevölkerung ist. Vermutlich ist der Enoki einer der ersten gezielt kultivierten Speisepilze überhaupt. Sein Anbau lässt sich bis in die späte chinesische Tang-Dynastie in den Jahren 800 bis 900 zurückdatieren. Seine einfache Kultivierung macht ihn auch für die Forschung attraktiv. So wurde im Rahmen der Spacelab-Mission D-2 im Jahr 1993 der Einfluss der Schwerkraft auf das Wachstum des Enoki untersucht.
 Der Enoki ist besonders in der japanischen Küche ein sehr verbreiteter Speisepilz. Auch in Europa wird der Pilz, der vorwiegend im Winter auf Stümpfen sowie an Stämmen und abgefallenen Ästen von Laubgehölzen wächst, von Kennern geschätzt.
 
 In der Praxis erprobte Anwendungsgebiete
@@ -23,7 +26,7 @@ Im Kühlschrank gelagert, sind Enoki bis zu einer Woche haltbar.
 
 Unser Tipp:
 Geben Sie die Pilze erst zum Schluss zu den Speisen - dann bleibt der Geschmack voll enthalten.
-Enoki-Pilze lassen sich sehr gut, z. B. in Salaten, roh verzehren. Die Pilze leicht abbürsten oder vorsichtig trocken reinigen. Den Wurzelstock abschneiden. Ansonsten können Stiel und die sogenannte Kappe ganz verwendet werden. In der leichten Küche findet dieser Pilz zudem Verwendung in Suppen oder zu Pasta.
+Enoki-Pilze lassen sich sehr gut, z. B. in Salaten, roh verzehren. Die Pilze leicht abbürsten oder vorsichtig trocken reinigen. Den Wurzelstock abschneiden. Ansonsten können Stiel und die sogenannte Kappe ganz verwendet werden. In der leichten Küche findet dieser Pilz zudem Verwendung in Suppen oder zu Pasta. -->
 
 Inhaltsstoffe (Nährwertangaben Menge pro 100 Gramm)
 Kalorien 37
