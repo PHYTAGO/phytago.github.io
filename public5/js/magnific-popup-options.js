@@ -33,15 +33,15 @@ $(document).ready(function() {
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-
-        fixedContentPos: false
+				zoom: 150;
+        fixedContentPos: false;
     });
 	};
 
-	
 
 
-	// Call the functions 
+
+	// Call the functions
 	magnifPopup();
 	magnifVideo();
 
