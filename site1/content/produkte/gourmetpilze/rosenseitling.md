@@ -3,8 +3,9 @@ title: "Rosenseitling"
 date: 2020-04-23T08:10:50+02:00
 draft: true
 image: "ROSENSEITLING1.png"
+heroimage: "ROSENSEITLING1.png"
 herovideo: ""
-herotext: []
+herotext: ["Die Schönheit unter den Pilzen"]
 heroheight: 350px
 ---
 Die Schönheit unter den Pilzen - Der Rosenseitling besticht durch eine saftige rosa Farbe und ein fleischig nussiges Aroma. Er wächst in den Tropen und Subtropen Amerikas und Asiens, ein wärmeliebender Edelpilze. Hierzulande ist der Rosenseitling wegen seiner einzigartigen Farbe, Form und Geschmacks eine beliebte Köstlichkeit. Der Rosenseitling entwickelt einen recht strengen Geruch, was aber in keinster Weise auf seinen exquisiten Geschmack schließen lässt.

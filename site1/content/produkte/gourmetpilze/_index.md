@@ -2,8 +2,9 @@
 title: ""
 date: 2020-05-12T20:02:36+02:00
 herovideo: "video-mushrooms1.mp4"
+videoposition: -200px
 herotext: ["Gourmetpilze - das Fleisch des Waldes"]
-heroheight: 350px
+heroheight: 400px
 draft: true
 ---
 TEXTBLOCK_PILZE

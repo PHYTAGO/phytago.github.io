@@ -1,9 +1,11 @@
 ---
-title: "Impressum"
-date: 2020-05-12T20:02:36+02:00
+title: ""
+date: 2020-05-11T11:54:38+02:00
+herovideo: ""
+heroimage: ""
+herotext: ["Impressum"]
+heroheight: 300px
 draft: true
-description: ""
-slug: "IMPRESSUM"
 ---
 UNTERNEHMEN NAME XXXXXX
 Straße NR XXXXXX

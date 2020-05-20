@@ -1,10 +1,11 @@
 ---
-title: "AGB"
-date: 2020-05-12T20:02:36+02:00
+title: ""
+date: 2020-05-11T11:54:38+02:00
+herovideo: ""
+heroimage: ""
+herotext: ["Allgemeine Geschäftsbedingungen"]
+heroheight: 300px
 draft: true
-description: ""
-heroheight: 350px;
-slug: "AGB"
 ---
 Allgemeine Geschäftsbedingungen
 § 1 Geltungsbereich, Kundeninformationen

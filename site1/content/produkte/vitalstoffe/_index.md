@@ -1,11 +1,14 @@
 ---
-title: "Vitalstoffe"
+title: ""
 date: 2020-05-11T11:54:38+02:00
 herovideo: "video-rettich-big1.mp4"
-herotext: []
-heroheight: 250px
+videoposition: 300px
+herotext: ["Vitalstoffe - Natürliche Energiebomben"]
+heroheight: 400px
 draft: true
 ---
-Unsere Vitalstoffe aus eigener Produktion. Für Sie natürlich geheckselt, zermörsert und vakuumiert. Natürlich auch im ökoligisch wertvollen Plastikbeutel mit Zellstoffgrundlage.
+TEXTBLOCK_VITALSTOFFE
 
-Probieren Sie sich durch und werden sie gesundheitlich unantastbar!
+Unsere Vitalstoffe aus eigener Produktion, für Sie natürlich geheckselt, zermörsert und vakuumiert. Natürlich auch in ökoligisch wertvoller Verpackung auf Zellstoffgrundlage.
+
+Werden sie gesundheitlich unantastbar!

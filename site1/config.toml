@@ -7,7 +7,7 @@ video = "video-chia.mp4"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["/css/custom1.css", "/css/custom2.css"]
 
   # Meta
   author = ""
@@ -83,7 +83,7 @@ video = "video-chia.mp4"
 
   [[params.intro.item]]
     title = "Vitalpulver"
-    description = "Vitalstoffe sind überwiegend als Biokatalysatoren in Zellen und Geweben bei Anwesenheit von Wasser, Sauerstoff und Kohlensäure (letztere bei Pflanzen) wirksame lebenswichtige Bestandteile. Dazu gehören nach bisherigen Feststellungen: Enzyme, Co-Enzyme, Vitamine, Hormone, exogen-essentielle Aminosäuren, exogen-essentielle Fettsäuren, Haupt- und Spurenelemente, Duft- und Geschmacksstoffe."
+    description = "Vitalstoffe sind überwiegend als Biokatalysatoren in Zellen und Geweben bei Anwesenheit von Wasser, Sauerstoff und Kohlensäure (letztere bei Pflanzen) wirksame lebenswichtige Bestandteile: Enzyme, Co-Enzyme, Vitamine, Hormone, exogen-essentielle Aminosäuren, exogen-essentielle Fettsäuren, Haupt- und Spurenelemente, Duft- und Geschmacksstoffe."
     url = "/produkte/vitalstoffe"
     button = "Vitalstoffe"
     icon = "icon-diamond"
@@ -196,9 +196,9 @@ video = "video-chia.mp4"
 #Shiitake mögen Thymian, Rosmarin und Petersilie.
 
    [[params.workb.row]]
-     img = "ENOKI.jpg"
-     alt = "Image3"
-     title = "Enoki -  Die kleine Flamme des Lebens"
+     img = ""
+     alt = ""
+     title = ""
      subtitle =  ""
      # Verbesserung der Verträglichkeit von Chemo- und Strahlentherapie
      # Die immunmodulierenden Eigenschaften des Enoki stärken einen Organismus, der aufgrund einer schulmedizinischen Tumortherapie besonders belastet wird. Sowohl eine verbesserte Verträglichkeit der Therapie als auch ein Schutz vor weiteren Zellveränderungen kann durch die antioxidativ wirkenden Inhaltsstoffe erreicht werden.
@@ -412,7 +412,7 @@ video = "video-chia.mp4"
     enable = true
     copyright = '&copy; PHYTAGO, All Rights Reserved. '
     links = [
-        ["icon-lock", "/verwaltung/datenschutz"],
-        ["icon-paperclip", "/verwaltung/agb"],
-        ["icon-people", "/verwaltung/impressum"]
+        ["icon-lock", "/verwaltung/datenschutz", "Datenschutz"],
+        ["icon-paperclip", "/verwaltung/agb", "AGB"],
+        ["icon-people", "/verwaltung/impressum", "Impressum"]
       ]

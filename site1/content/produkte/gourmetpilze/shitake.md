@@ -3,8 +3,9 @@ title: "Shitake"
 date: 2020-04-23T08:10:44+02:00
 draft: true
 image: "SHITAKE1.png"
+heroimage: "SHITAKE1.png"
 herovideo: ""
-herotext: []
+herotext: [Der König der Aromen]
 heroheight: 350px
 ---
  König der Aromen -
