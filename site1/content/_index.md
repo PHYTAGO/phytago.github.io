@@ -11,6 +11,6 @@ herotext: [
   "ganzjährig konstante Liefe­rung",
   "Individualisierter Anbau"
 ]
-heroheight: 600px
+heroheight: 550px
 ---
 TEXTBLOCK_ABOUTUS

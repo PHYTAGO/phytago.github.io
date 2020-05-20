@@ -2,7 +2,7 @@
 title: ""
 date: 2020-05-11T11:54:38+02:00
 herovideo: "video-rettich-big1.mp4"
-videoposition: 300px
+videoposition:
 herotext: ["Vitalstoffe - Natürliche Energiebomben"]
 heroheight: 400px
 draft: true
