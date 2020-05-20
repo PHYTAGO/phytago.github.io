@@ -48,21 +48,6 @@
   </url>
   
   <url>
-    <loc>localhost:1313/verwaltung/agb/</loc>
-    <lastmod>2020-05-12T20:02:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/verwaltung/datenschutz/</loc>
-    <lastmod>2020-05-12T20:02:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/verwaltung/impressum/</loc>
-    <lastmod>2020-05-12T20:02:36+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>localhost:1313/verwaltung/kundenbereich/</loc>
     <lastmod>2020-05-12T20:02:36+02:00</lastmod>
   </url>
@@ -79,6 +64,21 @@
   
   <url>
     <loc>localhost:1313/produkte/vitalstoffe/</loc>
+    <lastmod>2020-05-11T11:54:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/verwaltung/agb/</loc>
+    <lastmod>2020-05-11T11:54:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/verwaltung/datenschutz/</loc>
+    <lastmod>2020-05-11T11:54:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/verwaltung/impressum/</loc>
     <lastmod>2020-05-11T11:54:38+02:00</lastmod>
   </url>
   
