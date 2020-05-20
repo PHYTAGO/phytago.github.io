@@ -419,15 +419,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #myVideo {
   position: absolute;
-  top:-100px;
+  top:-150px;
   right: 0;
   bottom: 0;
   max-width: 100%;
   min-height: 100%;
 }
 
-@media screen and (max-width: 556px) {
+@media screen and (max-width: 625px) {
   #myVideo {
+    top: -10px;
     max-width:none;
     min-height:none;
     min-width: 100%;
@@ -437,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 910px) {
   #myVideo {
-    top:0;
+    top: 0px;
   }
 }
 
