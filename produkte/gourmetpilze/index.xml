@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</title>
+    <link>localhost:1313/produkte/gourmetpilze/</link>
+    <description>Recent content on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2020 20:02:36 +0200</lastBuildDate>
+    
+	<atom:link href="localhost:1313/produkte/gourmetpilze/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rosenseitling</title>
+      <link>localhost:1313/produkte/gourmetpilze/rosenseitling/</link>
+      <pubDate>Thu, 23 Apr 2020 08:10:50 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/gourmetpilze/rosenseitling/</guid>
+      <description>Die Schönheit unter den Pilzen - Der Rosenseitling besticht durch eine saftige rosa Farbe und ein fleischig nussiges Aroma. Er wächst in den Tropen und Subtropen Amerikas und Asiens, ein wärmeliebender Edelpilze. Hierzulande ist der Rosenseitling wegen seiner einzigartigen Farbe, Form und Geschmacks eine beliebte Köstlichkeit. Der Rosenseitling entwickelt einen recht strengen Geruch, was aber in keinster Weise auf seinen exquisiten Geschmack schließen lässt. Die attraktive Färbung und seine Wuchsform ähnlich einer Rose, machen den Rosenseitling zum Hingucker.</description>
+    </item>
+    
+    <item>
+      <title>Shitake</title>
+      <link>localhost:1313/produkte/gourmetpilze/shitake/</link>
+      <pubDate>Thu, 23 Apr 2020 08:10:44 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/gourmetpilze/shitake/</guid>
+      <description>König der Aromen - Nach dem Champignon ist er der meistangebaute Speisepilz überhaupt. In Ostasien ist er die Nummer eins unter den angebauten Pilzen, auch in Russland ist er inzwischen sehr verbreitet. Dem Shiitake-Pilz wird eine Reihe positiver Wirkungen nachgesagt: Unter anderem soll er das Immunsystem stärken, den Cholesterinspiegel senken und gegen Infektionen helfen. Er wird in der traditionellen Heilkunde asiatischer Länder gegen verschiedenste Leiden eingesetzt. Er gilt als natürliches Stärkemittel, wirkt gegen Erkältungen und stabilisiert den Kreislauf.</description>
+    </item>
+    
+    <item>
+      <title>Enoki</title>
+      <link>localhost:1313/produkte/gourmetpilze/enoki/</link>
+      <pubDate>Thu, 23 Apr 2020 08:10:35 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/gourmetpilze/enoki/</guid>
+      <description>Inhaltsstoffe (Nährwertangaben Menge pro 100 Gramm) Kalorien 37 Fettgehalt 0,3 g Gesättigte Fettsäuren 0 g Mehrfach ungesättigte Fettsäuren 0,1 g Einfach ungesättigte Fettsäuren 0 g Cholesterin 0 mg Natrium 3 mg Kalium 359 mg Kohlenhydrate 8 g Ballaststoff 2,7 g Zucker 0,2 g Protein 2,7 g Kalzium	0 mg Eisen	1,2 mg Magnesium	16 mg	Vitamin C	0 mg Vitamin D	5 IU Vitamin B6 0,1 mg Vitamin B12	0 µg</description>
+    </item>
+    
+  </channel>
+</rss>
