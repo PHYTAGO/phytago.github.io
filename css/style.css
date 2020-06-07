@@ -21,9 +21,11 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+
 }
 html {
   scroll-behavior: smooth;
+
 }
 a {
   color: #52d3aa;
@@ -214,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+
   }
   #fh5co-header .navbar-brand {
     color: hsl(118, 85%, 33%) !important;
@@ -524,6 +527,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   font-size: 50px;
   text-align: center;
+  text-decoration: underline;
 }
 
 #fh5co-intro {
@@ -876,7 +880,7 @@ text-align: center;
   color: #fff;
 }
 #fh5co-counters .section-heading h2:after {
-  background: rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 1) !important;
 }
 #fh5co-counters .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -963,8 +967,10 @@ text-align: center;
   font-weight: 400;
 }
 #fh5co-testimonials .box-testimony .author a {
-
   color: #52d3aa;
+}
+.caption_borderd {
+
 }
 #fh5co-testimonials .box-testimony .author a:hover {
   text-decoration: underline;
@@ -974,7 +980,6 @@ text-align: center;
   height: 100px;
   float: left;
   margin-right: 10px;
-  border: 2px solid black;
 }
 #fh5co-testimonials .box-testimony .author > figure img {
   background-color: lightblue;
@@ -982,6 +987,8 @@ text-align: center;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  height: 150px;
+
 }
 #fh5co-testimonials .box-testimony .author p {
   width: 50%;
@@ -1384,15 +1391,21 @@ font-weight: bold;
 }
 .section-heading h2:after {
   content: "";
-  position: absolute;
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: black;
+  opacity: 1;
+  margin: auto;
+}
+#fh5co-services .section-heading h2:after {
+  content: "";
   display: block;
   width: 80px;
   height: 2px;
   background: #fff;
-  opacity: 0;
-  left: 50%;
-  margin-left: auto;
-  bottom: 0;
+  opacity: 1;
+  margin: auto;
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
