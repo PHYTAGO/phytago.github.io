@@ -429,6 +429,13 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100%;
 }
 
+.fh5co-block #myVideo {
+height: 400px;
+width: auto;
+overflow: hidden;
+}
+
+
 @media screen and (max-width: 625px) {
   #myVideo {
     top: -10px;
@@ -572,17 +579,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 
-
 #fh5co-intro .fh5co-block {
-  width: 45%;
+  width: 40%;
   min-width: 40%;
  display: inline-block;
   text-align: center;
   font-size: 10px;
-  height: 400px;
-
+  height: 350px;
   padding: 40px;
-
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
@@ -598,6 +602,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+}
+#fh5co-intro .fh5co-block #myVideo {
+position:fixed;
+top:-25px;
+width: 100%;
+height: auto;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
