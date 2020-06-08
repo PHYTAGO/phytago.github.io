@@ -12,57 +12,57 @@
     
     
     <item>
-      <title>Vitamix6</title>
-      <link>localhost:1313/produkte/vitalstoffe/vitamix6/</link>
-      <pubDate>Wed, 13 May 2020 09:42:38 +0200</pubDate>
+      <title>Vitamix1</title>
+      <link>localhost:1313/produkte/vitalpulver/vitamix1/</link>
+      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
       
-      <guid>localhost:1313/produkte/vitalstoffe/vitamix6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vitamix5</title>
-      <link>localhost:1313/produkte/vitalstoffe/vitamix5/</link>
-      <pubDate>Wed, 13 May 2020 09:42:34 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalstoffe/vitamix5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vitamix4</title>
-      <link>localhost:1313/produkte/vitalstoffe/vitamix4/</link>
-      <pubDate>Wed, 13 May 2020 09:42:31 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalstoffe/vitamix4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vitamix3</title>
-      <link>localhost:1313/produkte/vitalstoffe/vitamix3/</link>
-      <pubDate>Wed, 13 May 2020 09:42:28 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalstoffe/vitamix3/</guid>
-      <description></description>
+      <guid>localhost:1313/produkte/vitalpulver/vitamix1/</guid>
+      <description>TEXTBLOX VITAMIX</description>
     </item>
     
     <item>
       <title>Vitamix2</title>
-      <link>localhost:1313/produkte/vitalstoffe/vitamix2/</link>
-      <pubDate>Wed, 13 May 2020 09:42:25 +0200</pubDate>
+      <link>localhost:1313/produkte/vitalpulver/vitamix2/</link>
+      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
       
-      <guid>localhost:1313/produkte/vitalstoffe/vitamix2/</guid>
-      <description></description>
+      <guid>localhost:1313/produkte/vitalpulver/vitamix2/</guid>
+      <description>TEXTBLOX VITAMIX</description>
     </item>
     
     <item>
-      <title>Vitamix1</title>
-      <link>localhost:1313/produkte/vitalstoffe/vitamix1/</link>
+      <title>Vitamix3</title>
+      <link>localhost:1313/produkte/vitalpulver/vitamix3/</link>
       <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
       
-      <guid>localhost:1313/produkte/vitalstoffe/vitamix1/</guid>
-      <description></description>
+      <guid>localhost:1313/produkte/vitalpulver/vitamix3/</guid>
+      <description>TEXTBLOX VITAMIX</description>
+    </item>
+    
+    <item>
+      <title>Vitamix4</title>
+      <link>localhost:1313/produkte/vitalpulver/vitamix4/</link>
+      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/vitalpulver/vitamix4/</guid>
+      <description>TEXTBLOX VITAMIX</description>
+    </item>
+    
+    <item>
+      <title>Vitamix5</title>
+      <link>localhost:1313/produkte/vitalpulver/vitamix5/</link>
+      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/vitalpulver/vitamix5/</guid>
+      <description>TEXTBLOX VITAMIX</description>
+    </item>
+    
+    <item>
+      <title>Vitamix6</title>
+      <link>localhost:1313/produkte/vitalpulver/vitamix6/</link>
+      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
+      
+      <guid>localhost:1313/produkte/vitalpulver/vitamix6/</guid>
+      <description>TEXTBLOX VITAMIX</description>
     </item>
     
     <item>
@@ -71,8 +71,7 @@
       <pubDate>Thu, 23 Apr 2020 08:10:50 +0200</pubDate>
       
       <guid>localhost:1313/produkte/gourmetpilze/rosenseitling/</guid>
-      <description>Geschmack: Die den Blättrigen aufbau sieht er auch durch seine schöne Farbe wie eine Rose aus. Sehr kross angebraten ähnelt dieser dem von Speck oder geräuchertem Lachs.
-Inhaltsstoffe: Kalium, Phosphor, Proteine, Aminosäuren, Polysaccaride, Folsäure, Vitamin B2, 5.</description>
+      <description>NÄHRSTOFFTABELLE</description>
     </item>
     
     <item>
@@ -81,8 +80,7 @@ Inhaltsstoffe: Kalium, Phosphor, Proteine, Aminosäuren, Polysaccaride, Folsäur
       <pubDate>Thu, 23 Apr 2020 08:10:44 +0200</pubDate>
       
       <guid>localhost:1313/produkte/gourmetpilze/shitake/</guid>
-      <description>Geschmack: Geschmacklich ist der Shitake kräftig und sehr intensiv. Den Geschmack haben sie noch lange nach dem Verzehr im Mund.
-Inhaltsstoffe: (Nährwertangaben pro 100 Gramm) Kalorien 34 Fettgehalt 0,5 g Natrium 9 mg Kalium 304 mg Kohlenhydrate 7 g Ballaststoff 2,5 g Zucker 2,4 g Protein 2,2 g Kalzium	2 mg Eisen	0,4 mg Vitamin D	18 Vitamin B6	0,3 mg Magnesium	20 mg</description>
+      <description>NÄHRSTOFFTABELLE</description>
     </item>
     
     <item>
@@ -91,7 +89,7 @@ Inhaltsstoffe: (Nährwertangaben pro 100 Gramm) Kalorien 34 Fettgehalt 0,5 g Nat
       <pubDate>Thu, 23 Apr 2020 08:10:35 +0200</pubDate>
       
       <guid>localhost:1313/produkte/gourmetpilze/enoki/</guid>
-      <description>&amp;ldquo;Die zarten weißen Pilze mit ihren langen samtigen Stielen und kleinen Köpfen haben einen süßlichen, milden Geschmack.&amp;rdquo;</description>
+      <description>NÄHRSTOFFTABELLE</description>
     </item>
     
     <item>
