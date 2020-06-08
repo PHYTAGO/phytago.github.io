@@ -63,7 +63,7 @@
 	var clickMenu = function() {
 
 		$('#navbar a:not([class="external"])').click(function(event){
-			var section = $(this).data('nav-section'),
+			var section = $(this).data('nav-section').toLowerCase(),
 				navbar = $('#navbar');
 
 				if ( $('[data-section="' + section + '"]').length ) {
