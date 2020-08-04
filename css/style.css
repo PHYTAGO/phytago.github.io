@@ -28,7 +28,8 @@ html {
 
 }
 a {
-  color: #52d3aa;
+  color: #3ebf33;
+  font-weight: bold;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -251,8 +252,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.8);
   position: relative;
-  font-size: 17px;
+  font-size: 32px;
   font-weight: 500;
+  text-shadow:
+	 1px  1px 1px grey,
+	-1px  1px 1px grey,
+	 1px -1px 1px grey,
+	-1px -1px 1px grey;
 }
 #fh5co-header #navbar li a span {
   position: relative;
@@ -327,6 +333,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  text-shadow:
+	 1px  1px 1px white,
+	-1px  1px 1px white,
+	 1px -1px 1px white,
+	-1px -1px 1px white;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
   color: black;
@@ -420,12 +431,30 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.herovideo {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.kachelvideo {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  right: -10%;
+  width: 120%;
+}
+
 #myVideo {
   position: absolute;
   top:-150px;
   right: 0;
   bottom: 0;
-  max-width: 100%;
+  min-width: 100%;
   min-height: 100%;
 }
 
@@ -504,11 +533,16 @@ overflow: hidden;
   margin: 0 0 20px 0;
 }
 #fh5co-home .text-inner h2 {
-  font-size: 28px;
-  line-height: 38px;
-  font-weight: 300;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 200;
   color: rgba(255, 255, 255, 0.9);
   margin: 0;
+  text-shadow:
+	 1px  1px 1px grey,
+	-1px  1px 1px grey,
+	 1px -1px 1px grey,
+	-1px -1px 1px grey;
 }
 
 .slant {
@@ -650,20 +684,26 @@ height: auto;
 
 #fh5co-intro .fh5co-block h2 {
   font-size: 35px;
-  font-style:normal;
+  font-style: normal;
   font-weight: 400;
   color: #fff;
 }
 
 #fh5co-intro .fh5co-block h4 {
   opacity: 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #fh5co-intro .fh5co-block:hover h4 {
   opacity: 1;
   color: #fff;
   font-size: 22px;
+  font-weight: normal;
+  text-shadow:
+	 1px  1px 1px grey,
+	-1px  1px 1px grey,
+	 1px -1px 1px grey,
+	-1px -1px 1px grey;
 }
 
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
@@ -1058,7 +1098,7 @@ font-weight: bold;
  content: "";
   z-index: 3;
   display: inline-block;
-  height: 70px;
+  height: 30px;
   padding: 0;
   width: 101%;
 }
@@ -1098,7 +1138,7 @@ font-weight: bold;
   transition: 0.3s;
 }
 #fh5co-work .fh5co-project-item img {
-  width: 45%;
+  object-fit: cover;
   height: 93%;
   z-index: 8;
   opacity: 1;
@@ -1119,11 +1159,12 @@ font-weight: bold;
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2, #fh5co-work .fh5co-project-item .fh5co-text span {
   text-decoration: none !important;
+  font-size: 22px !important;
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2 {
-  height:2em;
+  min-height:2em;
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
   margin-top:15px;
@@ -1141,9 +1182,17 @@ font-weight: bold;
 #fh5co-work .fh5co-project-item .fh5co-text span {
   float: left;
   color: #b3b3b3;
-  font-size: 14px;
-  font-weight: 400;
-  margin-left: 5px;
+  color: #939393;
+  text-align: center;
+  font-size: 22px !important;
+  font-weight: 200;
+  margin-right: 5px;
+    text-shadow:
+	 1px  1px #eee,
+	-1px  1px #eee,
+	 1px -1px #eee,
+	-1px -1px #eee;
+  width: 95%;
 }
 #fh5co-work .fh5co-project-item:hover, #fh5co-work .fh5co-project-item:focus {
   -webkit-box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4);
@@ -1343,7 +1392,9 @@ font-weight: bold;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-size: 24px;
 }
+
 .btn:hover, .btn:active, .btn:focus {
   outline: none;
 }
@@ -1433,12 +1484,6 @@ font-weight: bold;
     font-size: 24px !important;
     line-height: 34px;
   }
-}
-
-.btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
 }
 
 .fh5co-nav-toggle {
@@ -1588,8 +1633,8 @@ font-weight: bold;
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: transparent;
-  color: black;
+  background: rgba(128,128,128,0.3);
+  color: white;
   border: none !important;
   border: 2px solid black !important;
 }
@@ -1603,7 +1648,7 @@ font-weight: bold;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
-  border-color: transparent;
+  background: rgba(255,255,255,0.3);
 }
 
 .social {

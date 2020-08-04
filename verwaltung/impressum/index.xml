@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</title>
-    <link>localhost:1313/verwaltung/impressum/</link>
-    <description>Recent content on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</description>
+    <title>PHYTAGO - Delikatessen aus ökologischer Kreislaufproduktion</title>
+    <link>https://phytago.github.io/verwaltung/impressum/</link>
+    <description>Recent content on PHYTAGO - Delikatessen aus ökologischer Kreislaufproduktion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 May 2020 11:54:38 +0200</lastBuildDate>
     
-	<atom:link href="localhost:1313/verwaltung/impressum/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phytago.github.io/verwaltung/impressum/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

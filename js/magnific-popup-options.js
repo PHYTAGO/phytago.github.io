@@ -33,7 +33,7 @@ $(document).ready(function() {
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-				zoom: 150;
+				zoom: 150,
         fixedContentPos: false;
     });
 	};

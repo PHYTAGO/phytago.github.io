@@ -1,176 +1,248 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Phytago on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</title>
-    <link>localhost:1313/</link>
-    <description>Recent content in Phytago on PHYTAGO - Aus Pflanzen pflanzen Pflanzen - Delikatessen aus ökologischer Kreislaufproduktion</description>
+    <title>Phytago on PHYTAGO - Delikatessen aus ökologischer Kreislaufproduktion</title>
+    <link>https://phytago.github.io/</link>
+    <description>Recent content in Phytago on PHYTAGO - Delikatessen aus ökologischer Kreislaufproduktion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 May 2020 20:02:36 +0200</lastBuildDate>
     
-	<atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phytago.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Vitamix1</title>
-      <link>localhost:1313/produkte/vitalpulver/vitamix1/</link>
-      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
+      <title>Alfalfa</title>
+      <link>https://phytago.github.io/produkte/jungpflanzen/alfalfa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/produkte/vitalpulver/vitamix1/</guid>
-      <description>TEXTBLOX VITAMIX</description>
-    </item>
-    
-    <item>
-      <title>Vitamix2</title>
-      <link>localhost:1313/produkte/vitalpulver/vitamix2/</link>
-      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalpulver/vitamix2/</guid>
-      <description>TEXTBLOX VITAMIX</description>
-    </item>
-    
-    <item>
-      <title>Vitamix3</title>
-      <link>localhost:1313/produkte/vitalpulver/vitamix3/</link>
-      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalpulver/vitamix3/</guid>
-      <description>TEXTBLOX VITAMIX</description>
-    </item>
-    
-    <item>
-      <title>Vitamix4</title>
-      <link>localhost:1313/produkte/vitalpulver/vitamix4/</link>
-      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalpulver/vitamix4/</guid>
-      <description>TEXTBLOX VITAMIX</description>
-    </item>
-    
-    <item>
-      <title>Vitamix5</title>
-      <link>localhost:1313/produkte/vitalpulver/vitamix5/</link>
-      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalpulver/vitamix5/</guid>
-      <description>TEXTBLOX VITAMIX</description>
-    </item>
-    
-    <item>
-      <title>Vitamix6</title>
-      <link>localhost:1313/produkte/vitalpulver/vitamix6/</link>
-      <pubDate>Wed, 13 May 2020 09:42:21 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/vitalpulver/vitamix6/</guid>
-      <description>TEXTBLOX VITAMIX</description>
-    </item>
-    
-    <item>
-      <title>Rosenseitling</title>
-      <link>localhost:1313/produkte/gourmetpilze/rosenseitling/</link>
-      <pubDate>Thu, 23 Apr 2020 08:10:50 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/gourmetpilze/rosenseitling/</guid>
-      <description>NÄHRSTOFFTABELLE</description>
-    </item>
-    
-    <item>
-      <title>Shitake</title>
-      <link>localhost:1313/produkte/gourmetpilze/shitake/</link>
-      <pubDate>Thu, 23 Apr 2020 08:10:44 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/gourmetpilze/shitake/</guid>
-      <description>NÄHRSTOFFTABELLE</description>
-    </item>
-    
-    <item>
-      <title>Enoki</title>
-      <link>localhost:1313/produkte/gourmetpilze/enoki/</link>
-      <pubDate>Thu, 23 Apr 2020 08:10:35 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/gourmetpilze/enoki/</guid>
-      <description>NÄHRSTOFFTABELLE</description>
+      <guid>https://phytago.github.io/produkte/jungpflanzen/alfalfa/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Amaranth</title>
-      <link>localhost:1313/produkte/jungpflanzen/amaranth/</link>
-      <pubDate>Thu, 23 Apr 2020 08:10:20 +0200</pubDate>
+      <link>https://phytago.github.io/produkte/jungpflanzen/amaranth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/produkte/jungpflanzen/amaranth/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
+      <guid>https://phytago.github.io/produkte/jungpflanzen/amaranth/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Rucola</title>
-      <link>localhost:1313/produkte/jungpflanzen/rucola/</link>
-      <pubDate>Thu, 23 Apr 2020 08:09:59 +0200</pubDate>
+      <title>Austernseitling</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/austernseitling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/produkte/jungpflanzen/rucola/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
+      <guid>https://phytago.github.io/produkte/gourmetpilze/austernseitling/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Basilikum</title>
-      <link>localhost:1313/produkte/jungpflanzen/basilikum/</link>
-      <pubDate>Thu, 23 Apr 2020 08:09:50 +0200</pubDate>
+      <link>https://phytago.github.io/produkte/jungpflanzen/basilikum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/produkte/jungpflanzen/basilikum/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
-    </item>
-    
-    <item>
-      <title>Alfalfa</title>
-      <link>localhost:1313/produkte/jungpflanzen/alfalfa/</link>
-      <pubDate>Thu, 23 Apr 2020 08:09:07 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/jungpflanzen/alfalfa/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
-    </item>
-    
-    <item>
-      <title>Senf</title>
-      <link>localhost:1313/produkte/jungpflanzen/senf/</link>
-      <pubDate>Thu, 23 Apr 2020 08:08:55 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/jungpflanzen/senf/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
-    </item>
-    
-    <item>
-      <title>Rettich</title>
-      <link>localhost:1313/produkte/jungpflanzen/rettich/</link>
-      <pubDate>Thu, 23 Apr 2020 08:08:46 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/jungpflanzen/rettich/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
-    </item>
-    
-    <item>
-      <title>Sesam</title>
-      <link>localhost:1313/produkte/jungpflanzen/sesam/</link>
-      <pubDate>Thu, 23 Apr 2020 08:08:40 +0200</pubDate>
-      
-      <guid>localhost:1313/produkte/jungpflanzen/sesam/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
+      <guid>https://phytago.github.io/produkte/jungpflanzen/basilikum/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Brokkoli</title>
-      <link>localhost:1313/produkte/jungpflanzen/brokkoli/</link>
-      <pubDate>Thu, 23 Apr 2020 08:08:34 +0200</pubDate>
+      <link>https://phytago.github.io/produkte/jungpflanzen/brokkoli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/produkte/jungpflanzen/brokkoli/</guid>
+      <guid>https://phytago.github.io/produkte/jungpflanzen/brokkoli/</guid>
       <description>NÄHRSTOFFTABELLE ?</description>
     </item>
     
     <item>
       <title>Chia</title>
-      <link>localhost:1313/produkte/jungpflanzen/chia/</link>
-      <pubDate>Thu, 23 Apr 2020 08:08:25 +0200</pubDate>
+      <link>https://phytago.github.io/produkte/jungpflanzen/chia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/produkte/jungpflanzen/chia/</guid>
-      <description>NÄHRSTOFFTABELLE ?</description>
+      <guid>https://phytago.github.io/produkte/jungpflanzen/chia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Einzelpulver</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enoki</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/enoki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/enoki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kastanienseitling</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/kastanienseitling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/kastanienseitling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kräuterseitling</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/kraeuterseitling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/kraeuterseitling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Limonenseitling</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/zitronenseitling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/zitronenseitling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rettich</title>
+      <link>https://phytago.github.io/produkte/jungpflanzen/rettich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/jungpflanzen/rettich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rosenseitling</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/rosenseitling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/rosenseitling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rotkohl</title>
+      <link>https://phytago.github.io/produkte/jungpflanzen/rotkohl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/jungpflanzen/rotkohl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rucola</title>
+      <link>https://phytago.github.io/produkte/jungpflanzen/rucola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/jungpflanzen/rucola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Senf</title>
+      <link>https://phytago.github.io/produkte/jungpflanzen/mustard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/jungpflanzen/mustard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shitake</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/shitake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/shitake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalpulver bei Arthrose</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalpulver bei Bluthochdruck</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalpulver bei Diabetes</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalpulver bei Margen-Darm-Beschwerden</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalpulver bei Skoriliose</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalpulver bei Trombose</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/vitamix5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/vitamix5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wunschjungpflanze</title>
+      <link>https://phytago.github.io/produkte/jungpflanzen/wunsch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/jungpflanzen/wunsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wunschpilz</title>
+      <link>https://phytago.github.io/produkte/gourmetpilze/wunsch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/gourmetpilze/wunsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wunschpulver</title>
+      <link>https://phytago.github.io/produkte/vitalpulver/wunsch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phytago.github.io/produkte/vitalpulver/wunsch/</guid>
+      <description></description>
     </item>
     
   </channel>
