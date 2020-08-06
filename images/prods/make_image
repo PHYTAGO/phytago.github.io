@@ -1,8 +1,0 @@
-#!/bin/bash
-
-for i in big/*.jpg
-do
-
-	convert $i -resize 800x $(basename $i) 
-
-done
