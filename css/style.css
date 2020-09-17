@@ -703,6 +703,15 @@ height: auto;
   font-size: 22px;
 }
 
+#fh5co-intro .fh5co-block .fh5co-text h3 {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 1.42857;
+}
+
 #fh5co-intro .fh5co-block:hover h4 {
   opacity: 1;
   color: #fff;
@@ -824,7 +833,7 @@ height: auto;
   background-image: -ms-repeating-linear-gradient(top left, #099427 0%, #52d3aa 100%);
   overflow: hidden;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1.0);
   opacity: 0.8;
   }
 #fh5co-services:before, #fh5co-services:after {
@@ -992,7 +1001,8 @@ text-align: center;
 #fh5co-testimonials .box-testimony blockquote {
   padding-left: 0;
   border-left: none;
-  padding: 30px;
+  margin: 20px;
+  padding: 5px;
   background: lightgrey;
   opacity: 0.5;
   font-size: 20px;
@@ -1635,7 +1645,7 @@ font-weight: bold;
    margin: 4%;"
 }
 .btn {
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
